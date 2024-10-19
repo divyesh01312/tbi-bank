@@ -1,0 +1,2249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>tbi Bank</title>
+    <meta name="description" content="" />
+    <meta name="title" content="" />
+    <meta name="keywords" content="" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--=== Add By Designer ===-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="fonts/fonts.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Slick Slider -->
+    <link href="css/slick.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!--=== Windows Phone JS Code Start ===-->
+    <script>
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement('style')
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    '@-ms-viewport{width:auto!important}'
+                )
+            )
+            document.querySelector('head').appendChild(msViewportStyle)
+        }
+    </script>
+    <!--=== Windows Phone JS Code End ===-->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <div class="top-header">
+            <div class="container">
+                <div class="top-header-inner">
+                    <ul class="nav nav-tabs d-none d-xl-flex" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a href="javascript:void(0);" class="nav-link active" id="individuals-tab"
+                                data-bs-toggle="tab" data-bs-target="#individuals" role="tab"
+                                aria-controls="individuals" aria-selected="true">Persoane fizice</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a href="javascript:void(0);" class="nav-link" id="company-tab" data-bs-toggle="tab"
+                                data-bs-target="#company" role="tab" aria-controls="company"
+                                aria-selected="false">Companii</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a href="javascript:void(0);" class="nav-link" id="partner-tab" data-bs-toggle="tab"
+                                data-bs-target="#partner" role="tab" aria-controls="partner"
+                                aria-selected="false">Comercianti parteneri</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a href="javascript:void(0);" class="nav-link" id="about-tab" data-bs-toggle="tab"
+                                data-bs-target="#about" role="tab" aria-controls="about" aria-selected="false">Despre
+                                tbi group</a>
+                        </li>
+                    </ul>
+                    <div class="language-dropdown">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Ro
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><img src="images/flag-greece.svg"
+                                            alt="flag-greece" class="img-fluid"><span>gr</span></a></li>
+                                <li><a class="dropdown-item" href="#"><img src="images/flag-romania.svg"
+                                            alt="flag-romania" class="img-fluid"><span>ro</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <div class="container">
+                <nav class="navbar navbar-expand-xl">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.svg" alt="logo" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav nav-tabs d-flex d-xl-none" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a href="javascript:void(0);" class="nav-link active" id="individuals-tab"
+                                    data-bs-toggle="tab" data-bs-target="#individuals" role="tab"
+                                    aria-controls="individuals" aria-selected="true">Persoane fizice</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a href="javascript:void(0);" class="nav-link" id="company-tab" data-bs-toggle="tab"
+                                    data-bs-target="#company" role="tab" aria-controls="company"
+                                    aria-selected="false">Companii</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a href="javascript:void(0);" class="nav-link" id="partner-tab" data-bs-toggle="tab"
+                                    data-bs-target="#partner" role="tab" aria-controls="partner"
+                                    aria-selected="false">Comercianti parteneri</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a href="javascript:void(0);" class="nav-link" id="about-tab" data-bs-toggle="tab"
+                                    data-bs-target="#about" role="tab" aria-controls="about"
+                                    aria-selected="false">Despre tbi group</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="individuals" role="tabpanel"
+                                aria-labelledby="individuals-tab">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Aplicatia tbi</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                            Depozite
+                                        </a>
+                                        <span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div>
+                                            <div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </span>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a
+                                                    href="javascript:void(0);"><span><i
+                                                            class="fa-solid fa-arrow-left"></i></span>Depozite</a> </li>
+                                            <li><a class="dropdown-item" href="#">Depozitul Online</a></li>
+                                            <li><a class="dropdown-item" href="#">Depozitul Simplu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                            Credite nevoi personale
+                                        </a>
+                                        <span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div>
+                                            <div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </span>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a
+                                                    href="javascript:void(0);"><span><i
+                                                            class="fa-solid fa-arrow-left"></i></span>Credite nevoi
+                                                    personale</a> </li>
+                                            <li><a class="dropdown-item" href="#">Creditul standard</a></li>
+                                            <li><a class="dropdown-item" href="#">Creditul auto</a></li>
+                                            <li><a class="dropdown-item" href="#">Creditul tbi duo</a></li>
+                                            <li><a class="dropdown-item" href="#">Creditul Cash Zero</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                            Cumpara acum, plateste mai tarziu
+                                        </a>
+                                        <span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div>
+                                            <div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </span>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a
+                                                    href="javascript:void(0);"><span><i
+                                                            class="fa-solid fa-arrow-left"></i></span>Cumpara acum,
+                                                    plateste mai tarziu</a> </li>
+                                            <li><a class="dropdown-item" href="#">4 rate, 0% dobanda</a></li>
+                                            <li><a class="dropdown-item" href="#">Cumparaturi bunuri online</a></li>
+                                            <li><a class="dropdown-item" href="#">Cumparaturi bunuri din magazine</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Servicii medicale in rate</a></li>
+                                            <li><a class="dropdown-item" href="#">Finantare auto</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                            Mai mult
+                                        </a>
+                                        <span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div>
+                                            <div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </span>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a
+                                                    href="javascript:void(0);"><span><i
+                                                            class="fa-solid fa-arrow-left"></i></span>Mai mult</a> </li>
+                                            <li><a class="dropdown-item" href="#">Operatiuni numerar</a></li>
+                                            <li><a class="dropdown-item" href="#">Operatiuni cont curent</a></li>
+                                            <li><a class="dropdown-item" href="#">Rate de schimb</a></li>
+                                            <li><a class="dropdown-item" href="#">Ambasador tbi</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="company" role="tabpanel" aria-labelledby="company-tab">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                            Credite companii
+                                        </a>
+                                        <span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div>
+                                            <div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </span>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a
+                                                    href="javascript:void(0);"><span><i
+                                                            class="fa-solid fa-arrow-left"></i></span>Credite
+                                                    companii</a> </li>
+                                            <li><a class="dropdown-item" href="#">Credit online fara garantii</a></li>
+                                            <li><a class="dropdown-item" href="#">Credit pentru activitatea curenta</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Credit de investitii</a></li>
+                                            <li><a class="dropdown-item" href="#">Credit dezvoltari imobiliare</a></li>
+                                            <li><a class="dropdown-item" href="#">Factoring</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Depozite</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                            Plati
+                                        </a>
+                                        <span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div>
+                                            <div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </span>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a
+                                                    href="javascript:void(0);"><span><i
+                                                            class="fa-solid fa-arrow-left"></i></span>Plati</a> </li>
+                                            <li><a class="dropdown-item" href="#">Conturi</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="partner" role="tabpanel" aria-labelledby="partner-tab">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                            Pentru parteneri
+                                        </a>
+                                        <span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div>
+                                            <div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </span>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a
+                                                    href="javascript:void(0);"><span><i
+                                                            class="fa-solid fa-arrow-left"></i></span>Pentru
+                                                    parteneri</a> </li>
+                                            <li><a class="dropdown-item" href="#">Solutia noastra</a></li>
+                                            <li><a class="dropdown-item" href="#">Focus pe client</a></li>
+                                            <li><a class="dropdown-item" href="#">Integrare usoara</a></li>
+                                            <li><a class="dropdown-item" href="#">Parteneriat Gomag</a></li>
+                                            <li><a class="dropdown-item" href="#">tbi bank medical</a></li>
+                                            <li><a class="dropdown-item" href="#">Comercianti Parteneri</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                            Finantare business
+                                        </a>
+                                        <span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div>
+                                            <div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </span>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a
+                                                    href="javascript:void(0);"><span><i
+                                                            class="fa-solid fa-arrow-left"></i></span>Finantare
+                                                    business</a> </li>
+                                            <li><a class="dropdown-item" href="#">Credit online companii</a></li>
+                                            <li><a class="dropdown-item" href="#">Credit pentru activitatea curenta</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                            Mai mult
+                                        </a>
+                                        <span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div>
+                                            <div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </span>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a
+                                                    href="javascript:void(0);"><span><i
+                                                            class="fa-solid fa-arrow-left"></i></span>Mai mult</a> </li>
+                                            <li><a class="dropdown-item" href="#">Resurse</a></li>
+                                            <li><a class="dropdown-item" href="#">Login Companie</a></li>
+                                            <li><a class="dropdown-item" href="#">Devino partener tbi</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                            tbi bank
+                                        </a>
+                                        <span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div>
+                                            <div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </span>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a
+                                                    href="javascript:void(0);"><span><i
+                                                            class="fa-solid fa-arrow-left"></i></span>tbi bank</a> </li>
+                                            <li><a class="dropdown-item" href="#">Echipa noastra</a></li>
+                                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                                            <li><a class="dropdown-item" href="#">Cariere</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                            Reglementari
+                                        </a>
+                                        <span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div>
+                                            <div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </span>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a
+                                                    href="javascript:void(0);"><span><i
+                                                            class="fa-solid fa-arrow-left"></i></span>Reglementari</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Politica de confidentialitate si
+                                                    protectia datelor</a></li>
+                                            <li><a class="dropdown-item" href="#">Actualizare date personale</a></li>
+                                            <li><a class="dropdown-item" href="#">Date legale si autorizatii</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                            Mai mult
+                                        </a>
+                                        <span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div>
+                                            <div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </span>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a
+                                                    href="javascript:void(0);"><span><i
+                                                            class="fa-solid fa-arrow-left"></i></span>Mai mult</a> </li>
+                                            <li><a class="dropdown-item" href="#">Stiri</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                                            <li><a class="dropdown-item" href="#">Program Bug Bounty</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Investitori</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-btn ms-auto d-none d-xl-block">
+                        <a href="javascript:void(0);" class="btn light-btn">mytbi</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- content start -->
+    <div class="content">
+
+        <!-- installment section -->
+        <div class="installment-banner-section" style="background-image: url('./images/quattro-desktop.webp');">
+            <div class="installment-banner-image  d-block d-md-none">
+                <img src="images/quattro-desktop-mobile.jpg" alt="img" class="img-fluid">
+            </div>
+            <div class="installment-banner-main">
+                <div class="container">
+                    <div class="installment-banner-detail">
+                        <div class="banner-title color-0d0d0d">
+                            <h2>Cumparaturi bunuri <br>online</h2>
+                        </div>
+                        <div class="installment-banner-paragraph">
+                            <p>Iti doresti un telefon nou, o trotineta electrica, sa-ti reinnoiesti garderoba, sa pleci in vacanta sau pur si simplu sa renovezi o camera? E simplu! Cumpara in rate din magazinele online partenere!</p>
+                        </div>
+                        <div class="credit-flex-part credit-flex-part-2">
+                            <div class="left-part">
+                                <div class="small-title color-fff">
+                                    <h3>Dobanda <span>0 %</span></h3>
+                                </div>
+                            </div>
+                            <div class="right-part">
+                                <div class="small-title color-fff">
+                                    <h3>Rate egale <span>4</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="installment-banner-button">
+                            <a href="#" class="btn btn-orange">Cumpara de la branduri de top</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- installment section -->
+
+        <!-- Benefits Start -->
+        <div class="tbi-benefits-wrp tbi-benefits-wrp1 tbi-benefits-wrp2 bg-0d0d0d">
+            <div class="container">
+                <div class="tbi-benefits-main">
+                    <div class="small-section-title">
+                        <h2>Ce se asigura</h2>
+                    </div>
+                    <div class="tbi-benefits-row">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                <div class="tbi-benefits-inner">
+                                    <div class="tbi-benefits-block">
+                                        <div class="tbi-benefits-icon">
+                                            <img src="images/check-mark-button.png" alt="arrow" class="img-fluid">
+                                        </div>
+                                        <div class="small-title">
+                                            <h3>Deces din imbolnavire</h3>
+                                        </div>
+                                    </div>
+                                    <div class="detail color-848484">
+                                        <p>Asiguratorul va plati datoria in numele tau, astfel incat familia ta sa nu
+                                            aiba grija ratelor: 100% din soldul ramas de rambursat al Imprumutului la
+                                            data decesului.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                <div class="tbi-benefits-inner">
+                                    <div class="tbi-benefits-block">
+                                        <div class="tbi-benefits-icon">
+                                            <img src="images/check-mark-button.png" alt="check-mark-button"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="small-title">
+                                            <h3>Deces din accident</h3>
+                                        </div>
+                                    </div>
+                                    <div class="detail color-848484">
+                                        <p>Asiguratorul va plati datoria in numele tau, astfel incat familia ta sa nu
+                                            aiba grija ratelor: 100% din soldul ramas de rambursat al Imprumutului la
+                                            data decesului, pentru imprumuturi mai mici sau egale cu 25.000,00 lei,
+                                            respectiv 200% din soldul ramas de rambursat al Imprumutului la data
+                                            decesului, pentru imprumuturi cuprinse intre 25.000,01 – 60.000,00 lei.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                <div class="tbi-benefits-inner">
+                                    <div class="tbi-benefits-block">
+                                        <div class="tbi-benefits-icon">
+                                            <img src="images/check-mark-button.png" alt="motorway" class="img-fluid">
+                                        </div>
+                                        <div class="small-title">
+                                            <h3>Ce se intampla cu asigurarea ta daca rambursezi anticipat integral
+                                                creditul tbi?</h3>
+                                        </div>
+                                    </div>
+                                    <div class="detail color-848484">
+                                        <p>In cazul in care iti rambursezi anticipat integral creditul tau tbi, poti
+                                            beneficia in continuare de asigurarea de viata atasata creditului, iar tu
+                                            devii beneficiarul direct al acesteia. Unul dintre beneficiile asigurarii de
+                                            viata este faptul ca iti acopera soldul initial al creditului, iar in cazul
+                                            in care se produce unul din riscurile pentru care esti asigurat, vei
+                                            beneficia de despagubire.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Benefits End -->
+
+        <!-- Personal Credit Start -->
+		<div class="personal-credit-wrp personal-credit-wrp3 bg-0d0d0d">
+			<div class="container">
+				<div class="personal-credit-row m-0">
+					<div class="row align-items-center flex-row-reverse">
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="personal-credit-img">
+								<img src="images/buy-pay-image.png" alt="buy-pay-image" class="img-fluid">
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="personal-credit-content">
+								<div class="small-section-title">
+									<h3>Cumperi acum, platesti mai tarziu</h3>
+								</div>
+								<div class="common-detail color-a5a5a5">
+									<p>Visele tale se pot indeplini rapid si gratis! Fie ca iti doresti o pereche noua
+										de pantofi, ori ultimul model de casti super cool, sau o decoratiune unicat
+										pentru sufragerie, cu 4 rate egale, 0% dobanda totul devine realitate cat ai
+										clipi. Platesti prima rata pe loc si celelalte 3 rate lunare egale in
+										urmatoarele 3 luni.</p>
+									<p>Cumpara in rate din magazinele partenere!</p>
+								</div>
+								<div class="credit-flex-part">
+									<div class="left-part">
+										<div class="small-title color-65cfd3">
+											<h3>Dobanda <span>0 %</span></h3>
+										</div>
+									</div>
+									<div class="right-part">
+										<div class="small-title color-65cfd3">
+											<h3>Rate egale <span>4</span></h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Personal Credit End -->
+
+        <!-- Aplicatia Tbi benefits Start -->
+		<div class="tbi-benefits-wrp tbi-benefits-wrp-2 bg-0d0d0d">
+			<div class="container">
+				<div class="tbi-benefits-main">
+					<div class="small-section-title">
+						<h2>Beneficii</h2>
+					</div>
+					<div class="tbi-benefits-row">
+						<div class="row">
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-block">
+									<div class="tbi-benefits-icon">
+										<img src="images/Gem-Stone-emoji.svg" alt="stone" class="img-fluid">
+									</div>
+									<div class="small-title">
+										<h3>4 rate egale cu 0% dobanda</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-block">
+									<div class="tbi-benefits-icon">
+										<img src="images/Smiling-Face-With-Hearts.svg" alt="smileyimg" class="img-fluid">
+									</div>
+									<div class="small-title">
+										<h3>Nu se emite card de credit</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-block">
+									<div class="tbi-benefits-icon">
+										<img src="images/cash-emoji.svg" alt="cahimg" class="img-fluid">
+									</div>
+									<div class="small-title">
+										<h3>Afli suma maxima pe site-ul partenerilor</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Aplicatia Tbi benefits End -->
+
+        <!-- Payment Methods Start -->
+		<div class="payment-methods-wrp mt-30 bg-0d0d0d">
+			<div class="small-section-title">
+				<h3>Modalitati de plata a ratei</h3>
+			</div>
+			<div class="payment-methods-slider">
+				<div class="payment-methods-item" style="background-color: #dda485;">
+					<div class="small-section-title">
+						<h3>La punctele de incasare PayPoint</h3>
+					</div>
+					<div class="common-detail">
+						<p>Terminalele <strong>PayPoint</strong> sunt prezente aproape in orice punct comercial
+							semnificativ.</span></p>
+						<p>Cel mai apropiat partener <strong>PayPoint</strong> care ofera serviciile de care aveti
+							nevoie este disponibil <a
+								href="https://ro-ro.paypoint.com/harta-plati-facturi-incarcare-electronica">aici</a></span>.</span>
+						</p>
+					</div>
+				</div>
+				<div class="payment-methods-item" style="background-color: #89c3e5;">
+					<div class="small-section-title">
+						<h3>Plata prin un-doi</h3>
+					</div>
+					<div class="common-detail">
+						<p><a href="javascript:void(0);">Vezi locatiile</a></p>
+						<p>Plati cu codul de bare la locatia de plata sau prin aplicatia mobila, cu numarul contractului
+							si CNP.</p>
+					</div>
+				</div>
+				<div class="payment-methods-item" style="background-color: #d28be8;">
+					<div class="small-section-title">
+						<h3>Terminalele Selfpay</h3>
+					</div>
+					<div class="common-detail">
+						<p><a href="javascript:void(0);">SelfPay</a></p>
+						<p>Plata la orice terminal SelfPay se va face prin scanarea codului de bare de pe documentul de
+							plata, sau prin introducerea CNP-ului titularului de contract. Vezi lista statiilor de plata
+							SelfPay.</p>
+					</div>
+				</div>
+				<div class="payment-methods-item" style="background-color: #dd85bd;">
+					<div class="small-section-title">
+						<h3>Prin transfer bancar sau depunere in numerar</h3>
+					</div>
+					<div class="common-detail">
+						<p>Poti plati ratele prin transfer bancar sau depunere numerar.</p>
+					</div>
+				</div>
+				<div class="payment-methods-item" style="background-color: #8ae5e5;">
+					<div class="small-section-title">
+						<h3>Plata din aplicatia tbi</h3>
+					</div>
+					<div class="common-detail">
+						<p><a href="#">Descarca acum</a></p>
+						<p>Plateste-ti ratele simplu si rapid direct din telefon. Descarca gratuit aplicatia tbi din
+							Google Play sau App Store. <a
+								href="https://www.youtube.com/watch?v=EVJbeGsyll8&amp;t=0s&amp;ab_channel=tbibankRomania"
+								target="_blank" rel="noopener">Vezi cat e de simplu.</a></p>
+					</div>
+				</div>
+				<div class="payment-methods-item" style="background-color: #8be892;">
+					<div class="small-section-title">
+						<h3>Plata online</h3>
+					</div>
+					<div class="common-detail">
+						<p><a href="#">Plateste online</a></p>
+						<p><strong>Oricand, foarte simplu si rapid.</strong> Oricand, simplu si rapid! Am creat o
+							platforma speciala unde puteti plati ratele, in 3 pasi simpli, cu cardul personal (debit).
+						</p>
+					</div>
+				</div>
+				<div class="payment-methods-item" style="background-color: #8995e5;">
+					<div class="small-section-title">
+						<h3>Plata recurenta</h3>
+					</div>
+					<div class="common-detail">
+						<p>Metoda de plata „Plata recurenta” consta in plata lunara a ratelor de credit prin debitarea
+							automata a contului de card.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Payment Methods End -->
+
+        <!-- example section -->
+		<div class="example-section bg-fff">
+			<div class="container">
+				<div class="example-content">
+					<div class="common-detail color-4a4e57">
+						<p>
+							<strong>Exemplu reprezentativ:</strong>
+							<em>Pentru un credit in valoare de 1000 lei, pe o perioada de 4 luni, cu o dobanda anuala
+								fixa de
+								0%, comisionul de analiza a dosarului este de 40 lei, rata lunara fixa este de 260 lei,
+								Dobanda anuala efectiva (DAE) este de 20,80% iar, valoarea totala platibila este 1040
+								lei.
+								Solicitarea de credit se analizeaza de tbi bank, conform politicii interne si
+								reglementarilor legale in vigoare. Costurile creditului sunt personalizate in functie de
+								profilul si istoricul tau de creditare, in functie de industria comerciantilor parteneri
+								si
+								valoarea bunurilor achizitionate. Aplici online si obtii calcul personalizat, conform
+								profilului tau de client</em>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- example section -->
+
+        <!-- partner section -->
+		<div class="partner-section bg-fff">
+			<div class="container">
+				<div class="partner-content fix-width-1200 mx-auto">
+					<div class="small-section-title color-212934">
+						<h3>Comercianti parteneri</h3>
+					</div>
+					<div class="filter-part">
+						<div class="row">
+							<div class="col-xxl-5 col-xl-5 col-lg-5 col-md-11 col-10">
+								<div class="form-group">
+									<input type="search" class="form-control" id="exampleInputSearch"
+										placeholder="Cauta">
+									<img src="images/mglass_big.svg" alt="serchimg" class="img-fluid search-img">
+									<a href="#" class="serch-link"><img src="images/arrow-right.svg" alt="arrow-right"
+											class="img-fluid"></a>
+								</div>
+							</div>
+							<div class="col-xxl-7 col-xl-7 col-lg-7 col-md-1 col-2">
+								<div class="filter-row d-lg-block d-none">
+									<div class="row">
+										<div class="col-4">
+											<div class="dropdown">
+												<label class="dropdown-label">Toate departamentele</label>
+
+												<div class="dropdown-list content mCustomScrollbar" id="content-1">
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-main" />
+														<label for="checkbox-main" class="checkbox-custom-label">Toate
+															departamentele</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_01" />
+														<label for="checkbox-custom_01"
+															class="checkbox-custom-label">Asigurari</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_02" />
+														<label for="checkbox-custom_02"
+															class="checkbox-custom-label">Electro-IT</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_03" />
+														<label for="checkbox-custom_03"
+															class="checkbox-custom-label">Bricolaj</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_04" />
+														<label for="checkbox-custom_04"
+															class="checkbox-custom-label">Mobila</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_05" />
+														<label for="checkbox-custom_05"
+															class="checkbox-custom-label">Jucarii</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_06" />
+														<label for="checkbox-custom_06"
+															class="checkbox-custom-label">Medicina dentara</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_07" />
+														<label for="checkbox-custom_07"
+															class="checkbox-custom-label">Sporturi si alte
+															pasiuni</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_08" />
+														<label for="checkbox-custom_08"
+															class="checkbox-custom-label">Materiale constructii</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_09" />
+														<label for="checkbox-custom_09"
+															class="checkbox-custom-label">Auto</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_10" />
+														<label for="checkbox-custom_10"
+															class="checkbox-custom-label">Climatizare</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_11" />
+														<label for="checkbox-custom_11"
+															class="checkbox-custom-label">Mobila casa si gradina</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_12" />
+														<label for="checkbox-custom_12"
+															class="checkbox-custom-label">Electrocasnice</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_13" />
+														<label for="checkbox-custom_13"
+															class="checkbox-custom-label">Moda si stil</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_14" />
+														<label for="checkbox-custom_14"
+															class="checkbox-custom-label">Sanatate vizuala</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_15" />
+														<label for="checkbox-custom_15"
+															class="checkbox-custom-label">Medicina veterinara</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_16" />
+														<label for="checkbox-custom_16"
+															class="checkbox-custom-label">Medicina estetica</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_17" />
+														<label for="checkbox-custom_17"
+															class="checkbox-custom-label">Sanatate auditiva</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_18" />
+														<label for="checkbox-custom_18"
+															class="checkbox-custom-label">Maternitate</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_19" />
+														<label for="checkbox-custom_19"
+															class="checkbox-custom-label">Clinica implant par</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_20" />
+														<label for="checkbox-custom_20"
+															class="checkbox-custom-label">Operatie bariatrica</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_21" />
+														<label for="checkbox-custom_21"
+															class="checkbox-custom-label">Recuperare medicala</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_22" />
+														<label for="checkbox-custom_22"
+															class="checkbox-custom-label">Servicii medicale</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_23" />
+														<label for="checkbox-custom_23"
+															class="checkbox-custom-label">Cumperi acum, platesti mai
+															tarziu</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_24" />
+														<label for="checkbox-custom_24"
+															class="checkbox-custom-label">Servicii medicale pentru
+															copii</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_25" />
+														<label for="checkbox-custom_25"
+															class="checkbox-custom-label">Cursuri si traininguri</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_26" />
+														<label for="checkbox-custom_26"
+															class="checkbox-custom-label">Cumperi acum</label>
+													</div>
+
+													<div class="checkbox">
+														<input type="checkbox" name="dropdown-group"
+															class="check checkbox-custom" id="checkbox-custom_27" />
+														<label for="checkbox-custom_27"
+															class="checkbox-custom-label">platesti mai tarziu</label>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class="dropdown radio-dropdown">
+												<label class="dropdown-label label-dropdown">Judete</label>
+
+												<div class="dropdown-list content mCustomScrollbar" id="content-1">
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-main" />
+														<label for="radio-main"
+															class="radio-custom-label">Judete</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-main2" />
+														<label for="radio-main2"
+															class="radio-custom-label">Bucuresti</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_01" />
+														<label for="radio-custom_01"
+															class="radio-custom-label">Cluj</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_02" />
+														<label for="radio-custom_02"
+															class="radio-custom-label">Neamt</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_03" />
+														<label for="radio-custom_03"
+															class="radio-custom-label">Bacau</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_04" />
+														<label for="radio-custom_04"
+															class="radio-custom-label">Dolj</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_05" />
+														<label for="radio-custom_05"
+															class="radio-custom-label">Timis</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_06" />
+														<label for="radio-custom_06"
+															class="radio-custom-label">Covasna</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_07" />
+														<label for="radio-custom_07"
+															class="radio-custom-label">Prahova</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_08" />
+														<label for="radio-custom_08"
+															class="radio-custom-label">Toate</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_09" />
+														<label for="radio-custom_09"
+															class="radio-custom-label">Toate</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_10" />
+														<label for="radio-custom_10"
+															class="radio-custom-label">Bucharest</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_11" />
+														<label for="radio-custom_11"
+															class="radio-custom-label">Oradea</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_12" />
+														<label for="radio-custom_12" class="radio-custom-label">Caras
+															Severin</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_13" />
+														<label for="radio-custom_13"
+															class="radio-custom-label">Calarasi</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_14" />
+														<label for="radio-custom_14"
+															class="radio-custom-label">Galati</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_15" />
+														<label for="radio-custom_15"
+															class="radio-custom-label">Buzau</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_16" />
+														<label for="radio-custom_16"
+															class="radio-custom-label">Constanta</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_17" />
+														<label for="radio-custom_17"
+															class="radio-custom-label">Salaj</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_18" />
+														<label for="radio-custom_18"
+															class="radio-custom-label">Iasi</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_19" />
+														<label for="radio-custom_19"
+															class="radio-custom-label">VASLUI</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_20" />
+														<label for="radio-custom_20"
+															class="radio-custom-label">Online</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_21" />
+														<label for="radio-custom_21"
+															class="radio-custom-label">Arad</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_22" />
+														<label for="radio-custom_22"
+															class="radio-custom-label">Suceava</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_23" />
+														<label for="radio-custom_23"
+															class="radio-custom-label">Timis</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_24" />
+														<label for="radio-custom_24"
+															class="radio-custom-label">Maramures</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_25" />
+														<label for="radio-custom_25"
+															class="radio-custom-label">Mures</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_26" />
+														<label for="radio-custom_26" class="radio-custom-label">Satu
+															Mare</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_27" />
+														<label for="radio-custom_27"
+															class="radio-custom-label">Bihor</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_28" />
+														<label for="radio-custom_28"
+															class="radio-custom-label">Sibiu</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_29" />
+														<label for="radio-custom_29"
+															class="radio-custom-label">Hunedoara</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_30" />
+														<label for="radio-custom_30"
+															class="radio-custom-label">Brasov</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_31" />
+														<label for="radio-custom_31"
+															class="radio-custom-label">Olt</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_32" />
+														<label for="radio-custom_32" class="radio-custom-label">Bistrita
+															Nasaud</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_33" />
+														<label for="radio-custom_33"
+															class="radio-custom-label">Teleorman</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_34" />
+														<label for="radio-custom_34"
+															class="radio-custom-label">Dambovita</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_35" />
+														<label for="radio-custom_35"
+															class="radio-custom-label">Vrancea</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_36" />
+														<label for="radio-custom_36"
+															class="radio-custom-label">Bucureşti</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_37" />
+														<label for="radio-custom_37"
+															class="radio-custom-label">Vaslui</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_38" />
+														<label for="radio-custom_38"
+															class="radio-custom-label">Ialomita</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_39" />
+														<label for="radio-custom_39"
+															class="radio-custom-label">Ilfov</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_40" />
+														<label for="radio-custom_40"
+															class="radio-custom-label">Valcea</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_41" />
+														<label for="radio-custom_41"
+															class="radio-custom-label">Gorj</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_42" />
+														<label for="radio-custom_42"
+															class="radio-custom-label">Arges</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_43" />
+														<label for="radio-custom_43"
+															class="radio-custom-label">Botosani</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_44" />
+														<label for="radio-custom_44"
+															class="radio-custom-label">Harghita</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_45" />
+														<label for="radio-custom_45"
+															class="radio-custom-label">Tulcea</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_46" />
+														<label for="radio-custom_46"
+															class="radio-custom-label">Braila</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_47" />
+														<label for="radio-custom_47"
+															class="radio-custom-label">Alba</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_48" />
+														<label for="radio-custom_48"
+															class="radio-custom-label">Giurgiu</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checked radio-custom" id="radio-custom_49" />
+														<label for="radio-custom_49" class="radio-custom-label">Baia
+															Mare</label>
+													</div>
+												</div>
+
+											</div>
+										</div>
+										<div class="col-4">
+											<div class="dropdown radio-dropdown-2">
+												<label class="dropdown-label label-dropdown2">Judete</label>
+
+												<div class="dropdown-list content mCustomScrollbar" id="content-1">
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checkedradio radio-custom" id="radio-main_1" />
+														<label for="radio-main_1" class="radio-custom-label">all</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checkedradio radio-custom" id="radio-main_2" />
+														<label for="radio-main_2"
+															class="radio-custom-label">online</label>
+													</div>
+
+													<div class="radio">
+														<input type="radio" name="dropdown-group"
+															class="checkedradio radio-custom" id="radio-main_3" />
+														<label for="radio-main_3"
+															class="radio-custom-label">in_store</label>
+													</div>
+
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-show-part d-lg-none d-block">
+									<a href="javascript:void(0);" class="filter-icon" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2">
+										<img src="images/filter.svg" alt="filterimg" class="img-fluid filterimg">
+									</a>
+									<div class="filter-main" id="navbarSupportedContent2">
+										<a href="javascript:void(0);" class="filter-close-icon">
+											<img src="images/cross.svg" alt="crossimg" class="img-fluid crossimg">
+										</a>
+										<div class="small-section-title color-212934">
+											<h2>Filtre</h2>
+										</div>
+										<div class="filter-list">
+											<ul>
+												<li>
+													<a href="javascript:void(0);">Departamente: All</a>
+													<div class="dropdown-menu1">
+														<a href="javascript:void(0);" class="back-arrow d-block d-lg-none">Departamente</a>
+
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-main" />
+																<label for="checkbox-main" class="checkbox-custom-label">Toate
+																	departamentele</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_01" />
+																<label for="checkbox-custom_01"
+																	class="checkbox-custom-label">Asigurari</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_02" />
+																<label for="checkbox-custom_02"
+																	class="checkbox-custom-label">Electro-IT</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_03" />
+																<label for="checkbox-custom_03"
+																	class="checkbox-custom-label">Bricolaj</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_04" />
+																<label for="checkbox-custom_04"
+																	class="checkbox-custom-label">Mobila</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_05" />
+																<label for="checkbox-custom_05"
+																	class="checkbox-custom-label">Jucarii</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_06" />
+																<label for="checkbox-custom_06"
+																	class="checkbox-custom-label">Medicina dentara</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_07" />
+																<label for="checkbox-custom_07"
+																	class="checkbox-custom-label">Sporturi si alte
+																	pasiuni</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_08" />
+																<label for="checkbox-custom_08"
+																	class="checkbox-custom-label">Materiale constructii</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_09" />
+																<label for="checkbox-custom_09"
+																	class="checkbox-custom-label">Auto</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_10" />
+																<label for="checkbox-custom_10"
+																	class="checkbox-custom-label">Climatizare</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_11" />
+																<label for="checkbox-custom_11"
+																	class="checkbox-custom-label">Mobila casa si gradina</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_12" />
+																<label for="checkbox-custom_12"
+																	class="checkbox-custom-label">Electrocasnice</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_13" />
+																<label for="checkbox-custom_13"
+																	class="checkbox-custom-label">Moda si stil</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_14" />
+																<label for="checkbox-custom_14"
+																	class="checkbox-custom-label">Sanatate vizuala</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_15" />
+																<label for="checkbox-custom_15"
+																	class="checkbox-custom-label">Medicina veterinara</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_16" />
+																<label for="checkbox-custom_16"
+																	class="checkbox-custom-label">Medicina estetica</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_17" />
+																<label for="checkbox-custom_17"
+																	class="checkbox-custom-label">Sanatate auditiva</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_18" />
+																<label for="checkbox-custom_18"
+																	class="checkbox-custom-label">Maternitate</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_19" />
+																<label for="checkbox-custom_19"
+																	class="checkbox-custom-label">Clinica implant par</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_20" />
+																<label for="checkbox-custom_20"
+																	class="checkbox-custom-label">Operatie bariatrica</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_21" />
+																<label for="checkbox-custom_21"
+																	class="checkbox-custom-label">Recuperare medicala</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_22" />
+																<label for="checkbox-custom_22"
+																	class="checkbox-custom-label">Servicii medicale</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_23" />
+																<label for="checkbox-custom_23"
+																	class="checkbox-custom-label">Cumperi acum, platesti mai
+																	tarziu</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_24" />
+																<label for="checkbox-custom_24"
+																	class="checkbox-custom-label">Servicii medicale pentru
+																	copii</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_25" />
+																<label for="checkbox-custom_25"
+																	class="checkbox-custom-label">Cursuri si traininguri</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_26" />
+																<label for="checkbox-custom_26"
+																	class="checkbox-custom-label">Cumperi acum</label>
+															</div>
+		
+															<div class="checkbox">
+																<input type="checkbox" name="dropdown-group"
+																	class="check checkbox-custom" id="checkbox-custom_27" />
+																<label for="checkbox-custom_27"
+																	class="checkbox-custom-label">platesti mai tarziu</label>
+															</div>
+														<!-- </div> -->
+													</div>
+												</li>
+												<li>
+													<a href="javascript:void(0);">Judete: All</a>
+													<div class="dropdown-menu1">
+														<a href="javascript:void(0);" class="back-arrow d-block d-lg-none">Judete</a>
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-main" />
+															<label for="radio-main" class="radio-custom-label">Judete</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-main2" />
+															<label for="radio-main2" class="radio-custom-label">Bucuresti</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_01" />
+															<label for="radio-custom_01" class="radio-custom-label">Cluj</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_02" />
+															<label for="radio-custom_02" class="radio-custom-label">Neamt</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_03" />
+															<label for="radio-custom_03" class="radio-custom-label">Bacau</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_04" />
+															<label for="radio-custom_04" class="radio-custom-label">Dolj</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_05" />
+															<label for="radio-custom_05" class="radio-custom-label">Timis</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_06" />
+															<label for="radio-custom_06" class="radio-custom-label">Covasna</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_07" />
+															<label for="radio-custom_07" class="radio-custom-label">Prahova</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_08" />
+															<label for="radio-custom_08" class="radio-custom-label">Toate</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_09" />
+															<label for="radio-custom_09" class="radio-custom-label">Toate</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_10" />
+															<label for="radio-custom_10" class="radio-custom-label">Bucharest</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_11" />
+															<label for="radio-custom_11" class="radio-custom-label">Oradea</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_12" />
+															<label for="radio-custom_12" class="radio-custom-label">Caras Severin</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_13" />
+															<label for="radio-custom_13" class="radio-custom-label">Calarasi</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_14" />
+															<label for="radio-custom_14" class="radio-custom-label">Galati</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_15" />
+															<label for="radio-custom_15" class="radio-custom-label">Buzau</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_16" />
+															<label for="radio-custom_16" class="radio-custom-label">Constanta</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_17" />
+															<label for="radio-custom_17" class="radio-custom-label">Salaj</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_18" />
+															<label for="radio-custom_18" class="radio-custom-label">Iasi</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_19" />
+															<label for="radio-custom_19" class="radio-custom-label">VASLUI</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_20" />
+															<label for="radio-custom_20" class="radio-custom-label">Online</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_21" />
+															<label for="radio-custom_21" class="radio-custom-label">Arad</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_22" />
+															<label for="radio-custom_22" class="radio-custom-label">Suceava</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_23" />
+															<label for="radio-custom_23" class="radio-custom-label">Timis</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_24" />
+															<label for="radio-custom_24" class="radio-custom-label">Maramures</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_25" />
+															<label for="radio-custom_25" class="radio-custom-label">Mures</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_26" />
+															<label for="radio-custom_26" class="radio-custom-label">Satu Mare</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_27" />
+															<label for="radio-custom_27" class="radio-custom-label">Bihor</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_28" />
+															<label for="radio-custom_28" class="radio-custom-label">Sibiu</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_29" />
+															<label for="radio-custom_29" class="radio-custom-label">Hunedoara</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_30" />
+															<label for="radio-custom_30" class="radio-custom-label">Brasov</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_31" />
+															<label for="radio-custom_31" class="radio-custom-label">Olt</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_32" />
+															<label for="radio-custom_32" class="radio-custom-label">Bistrita Nasaud</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_33" />
+															<label for="radio-custom_33" class="radio-custom-label">Teleorman</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_34" />
+															<label for="radio-custom_34" class="radio-custom-label">Dambovita</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_35" />
+															<label for="radio-custom_35" class="radio-custom-label">Vrancea</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_36" />
+															<label for="radio-custom_36" class="radio-custom-label">Bucureşti</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_37" />
+															<label for="radio-custom_37" class="radio-custom-label">Vaslui</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_38" />
+															<label for="radio-custom_38" class="radio-custom-label">Ialomita</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_39" />
+															<label for="radio-custom_39" class="radio-custom-label">Ilfov</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_40" />
+															<label for="radio-custom_40" class="radio-custom-label">Valcea</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_41" />
+															<label for="radio-custom_41" class="radio-custom-label">Gorj</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_42" />
+															<label for="radio-custom_42" class="radio-custom-label">Arges</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_43" />
+															<label for="radio-custom_43" class="radio-custom-label">Botosani</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_44" />
+															<label for="radio-custom_44" class="radio-custom-label">Harghita</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_45" />
+															<label for="radio-custom_45" class="radio-custom-label">Tulcea</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_46" />
+															<label for="radio-custom_46" class="radio-custom-label">Braila</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_47" />
+															<label for="radio-custom_47" class="radio-custom-label">Alba</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_48" />
+															<label for="radio-custom_48" class="radio-custom-label">Giurgiu</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checked radio-custom" id="radio-custom_49" />
+															<label for="radio-custom_49" class="radio-custom-label">Baia Mare</label>
+														</div>
+
+													</div>
+												</li>
+												<li>
+													<a href="javascript:void(0);">Stor: All</a>
+													<div class="dropdown-menu1">
+														<a href="javascript:void(0);" class="back-arrow d-block d-lg-none">Stor</a>
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checkedradio radio-custom" id="radio-main_1" />
+															<label for="radio-main_1" class="radio-custom-label">all</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checkedradio radio-custom" id="radio-main_2" />
+															<label for="radio-main_2" class="radio-custom-label">online</label>
+														</div>
+	
+														<div class="radio">
+															<input type="radio" name="dropdown-group" class="checkedradio radio-custom" id="radio-main_3" />
+															<label for="radio-main_3" class="radio-custom-label">in_store</label>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="partner-row">
+						<div class="row">
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+							<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+								<a href="javascript:void(0);" class="partner-detail">
+									<div class="partner-image">
+										<img src="images/partner-image.png" alt="img" class="img-fluid">
+									</div>
+									<div class="partner-info">
+										<h3>Casa Rusu <span>Electro-IT</span></h3>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="pagination-block">
+						<nav aria-label="Page navigation example">
+							<ul class="pagination">
+								<li class="page-item disabled prev"><a class="page-link" href="javascript:void(0);">Inapoi</a></li>
+								<li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+								<li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+								<li class="page-item next"><a class="page-link" href="javascript:void(0);">Inainte</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- partner section -->
+
+        <!-- Regulations Start -->
+		<div class="regulations-wrp regulations-wrp-2 bg-f4f4f4">
+			<div class="container">
+				<div class="regulations-main">
+					<div class="small-section-title color-212934">
+						<h3>Documente necesare</h3>
+					</div>
+					<div class="regulations-list">
+						<div class="row">
+							<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+								<a class="regulations-block" href="https://tbibank.ro/wp-content/uploads/2022/09/DECLARATIE-pe-propria-raspundere-TBI-Bank_09_2022.pdf" target="_blank"> 
+									<img src="images/icn-download-pdf-4k.png" alt="pdf" class="img-fluid">
+									<span>Declaratie pe propria raspundere<span class="space">115MB</span></span>
+								</a>
+							</div>
+							<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+								<a class="regulations-block" href="https://tbibank.ro/wp-content/uploads/2022/09/Acord-interogare-ANAF_TBI-Bank_offline-versiunea-iunie-2022.pdf" target="_blank">
+									<img src="images/icn-download-pdf-4k.png" alt="pdf" class="img-fluid">
+									<span>Acord interogare ANAF <span class="space">115MB</span></span>
+								</a>
+							</div>
+							<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+								<a class="regulations-block" href="https://tbibank.ro/wp-content/uploads/2022/09/Adeverinta_de_venit_TBI_Bank_versiune_iunie-2022.pdf" target="_blank">
+									<img src="images/icn-download-pdf-4k.png" alt="pdf" class="img-fluid">
+									<span>Adeverinta de venit tbi bank <span class="space">115MB</span></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Regulations End -->
+
+    </div>
+    <!-- content end -->
+
+    <!-- footer start -->
+    <footer class="footer depozitul-online-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-main">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="ftr-left">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-3 col-lg-6 col-xl-6 col-xxl-6">
+                                        <div class="ftr-block">
+                                            <div class="ftr-title">
+                                                <h5>tbi bank</h5>
+                                            </div>
+                                            <ul>
+                                                <li><a href="#">Reglementari</a></li>
+                                                <li><a href="#">Actualizare date personale</a></li>
+                                                <li><a href="#">Cariere</a></li>
+                                                <li><a href="#">Webinar</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3 col-lg-6 col-xl-6 col-xxl-6">
+                                        <div class="ftr-block">
+                                            <div class="ftr-title">
+                                                <h5>Legal</h5>
+                                            </div>
+                                            <ul>
+                                                <li><a href="#">Termeni si conditii</a></li>
+                                                <li><a href="#">Politica de confidentialitate si protectia datelor</a>
+                                                </li>
+                                                <li><a href="#">Politica de cookie-uri</a></li>
+                                                <li><a href="#">Securitate online</a></li>
+                                                <li><a href="#">Whistleblowing</a></li>
+                                                <li><a href="#">Documente</a></li>
+                                                <li><a href="#">Bancassurance</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3 col-lg-6 col-xl-6 col-xxl-6">
+                                        <div class="ftr-block">
+                                            <div class="ftr-title">
+                                                <h5>Mai mult</h5>
+                                            </div>
+                                            <ul>
+                                                <li><a href="#">Promotii incheiate</a></li>
+                                                <li><a href="#">Modalitati de plata a ratei</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3 col-lg-6 col-xl-6 col-xxl-6">
+                                        <div class="ftr-block">
+                                            <div class="ftr-title">
+                                                <h5>Contact</h5>
+                                            </div>
+                                            <ul>
+                                                <li><a href="#">Luni – Vineri <br> 08:00 – 17:00</a></li>
+                                                <li><a href="#">Sambata – Duminica Inchis</a></li>
+                                                <li><a href="0215298600">021 529 8600</a></li>
+                                                <li><a href="mailto:ccc@tbicallcenter.ro">ccc@tbicallcenter.ro</a></li>
+                                                <li><a href="#" class="text-decoration">Cauta o agentie</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="ftr-right">
+                                <div class="row">
+                                    <div class="col-sm-5 col-lg-5 col-xl-5 col-xxl-5">
+                                        <div class="ftr-title">
+                                            <h5>tbi asset management and servicing S.A. (fosta tbi leasing S.A.)</h5>
+                                        </div>
+                                        <ul>
+                                            <li><a href="#">tbi money</a></li>
+                                            <li><a href="#">Actualizare date personale</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-7 col-lg-7 col-xl-7 col-xxl-7">
+                                        <div class="ftr-app">
+                                            <div class="ftr-flex">
+                                                <div class="ftr-title">
+                                                    <h5>Descarca gratuit aplicatia tbi</h5>
+                                                    <p>Transforma-ti cumparaturile in experiente fara griji</p>
+                                                </div>
+                                                <div class="ftr-phone">
+                                                    <img src="images/new_footer_appscreen_Final.png" class="img-fluid"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="download-app__links">
+                                                <div class="download-app__links-qrcode">
+                                                    <img width="592" height="592"
+                                                        src="https://tbibank.ro/wp-content/uploads/2023/02/website.png"
+                                                        alt="" class="img-fluid">
+                                                </div>
+                                                <div class="download-app__links-items">
+                                                    <div class="download-app__links-header">Scaneaza codul QR</div>
+                                                    <div class="download-app__links-descr">sau descarca gratuit din:
+                                                    </div>
+                                                    <div class="download-app__links-mob">
+                                                        <a href="#" class="download-app__btn">
+                                                            <div class="download-app__btn-icon">
+                                                                <img width="20px" src="images/google_play_btn.svg"
+                                                                    class="img-fluid" alt="">
+                                                            </div>
+                                                            <div>
+                                                                <div class="download-app__btn-label">
+                                                                    <img width="45px"
+                                                                        src="images/footer-google-play-label.svg"
+                                                                        class="img-fluid" alt="">
+                                                                </div>
+                                                                <div class="download-app__btn-name">
+                                                                    <img width="58px"
+                                                                        src="images/footer-google-play-name.png"
+                                                                        class="img-fluid" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <a href="#" class="download-app__btn">
+                                                            <div class="download-app__btn-icon">
+                                                                <img width="17px" src="images/footer-app-store-icon.png"
+                                                                    class="img-fluid" alt="">
+                                                            </div>
+                                                            <div>
+                                                                <div class="download-app__btn-label">
+                                                                    <img width="41px"
+                                                                        src="images/footer-app-store-label.svg"
+                                                                        class="img-fluid" alt="">
+                                                                </div>
+                                                                <div class="download-app__btn-name">
+                                                                    <img width="55px"
+                                                                        src="images/footer-app-store-name.png"
+                                                                        class="img-fluid" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-last">
+            <div class="container">
+                <div class="footer-last-main">
+                    <div class="footer-last-main-left">
+                        <div class="footer-tbi-logo">
+                            <a href="#">
+                                <img src="images/footer-tbi-logo.svg" class="img-fluid" alt="footer-tbi-logo">
+                            </a>
+                        </div>
+                        <div class="insolventa">
+                            <a href="#">
+                                <img src="images/insolventa-PICTOGRAMA-1.png" class="img-fluid"
+                                    alt="insolventa-PICTOGRAMA">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-last-main-right">
+                        <ul>
+                            <li><a href="#"><img src="images/fb-small.svg" class="img-fluid" alt="icon"></a></li>
+                            <li><a href="#"><img src="images/insta-small.svg" class="img-fluid" alt="icon"></a></li>
+                            <li><a href="#"><img src="images/linked-square.svg" class="img-fluid" alt="icon"></a></li>
+                        </ul>
+                        <div class="detail">
+                            <h6>2024 tbi bank</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="js/slick.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="js/all.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- ofi -->
+    <script src="js/ofi.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

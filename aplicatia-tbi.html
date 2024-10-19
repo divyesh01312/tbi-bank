@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>tbi Bank</title>
+<meta name="description" content="" />
+<meta name="title" content="" />
+<meta name="keywords" content="" />
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">	
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!--=== Add By Designer ===-->
+<link href="css/style.css" rel="stylesheet">
+<link href="fonts/fonts.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<!-- Slick Slider -->
+<link href="css/slick.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="css/all.min.css" rel="stylesheet">
+<!--=== Windows Phone JS Code Start ===-->
+<script>
+	if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+		var msViewportStyle = document.createElement('style')
+		msViewportStyle.appendChild(
+			document.createTextNode(
+				'@-ms-viewport{width:auto!important}'
+				)
+			)
+		document.querySelector('head').appendChild(msViewportStyle)
+	}
+</script>
+<!--=== Windows Phone JS Code End ===-->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<!-- header start -->
+<header class="header">
+	<div class="top-header">
+		<div class="container">
+			<div class="top-header-inner">
+				<ul class="nav nav-tabs d-none d-xl-flex" id="myTab" role="tablist">
+					<li class="nav-item" role="presentation">
+						  <a href="javascript:void(0);" class="nav-link active" id="individuals-tab" data-bs-toggle="tab" data-bs-target="#individuals" role="tab" aria-controls="individuals" aria-selected="true">Persoane fizice</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						  <a href="javascript:void(0);" class="nav-link" id="company-tab" data-bs-toggle="tab" data-bs-target="#company" role="tab" aria-controls="company" aria-selected="false">Companii</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						  <a href="javascript:void(0);" class="nav-link" id="partner-tab" data-bs-toggle="tab" data-bs-target="#partner" role="tab" aria-controls="partner" aria-selected="false">Comercianti parteneri</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						  <a href="javascript:void(0);" class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" role="tab" aria-controls="about" aria-selected="false">Despre tbi group</a>
+					</li>
+				</ul>	
+				<div class="language-dropdown">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  	Ro
+						</button>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#"><img src="images/flag-greece.svg" alt="flag-greece" class="img-fluid"><span>gr</span></a></li>
+							<li><a class="dropdown-item" href="#"><img src="images/flag-romania.svg" alt="flag-romania" class="img-fluid"><span>ro</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="bottom-header">
+		<div class="container">
+			<nav class="navbar navbar-expand-xl">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.svg" alt="logo" class="img-fluid">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="nav nav-tabs d-flex d-xl-none" id="myTab" role="tablist">
+						<li class="nav-item" role="presentation">
+							  <a href="javascript:void(0);" class="nav-link active" id="individuals-tab" data-bs-toggle="tab" data-bs-target="#individuals" role="tab" aria-controls="individuals" aria-selected="true">Persoane fizice</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							  <a href="javascript:void(0);" class="nav-link" id="company-tab" data-bs-toggle="tab" data-bs-target="#company" role="tab" aria-controls="company" aria-selected="false">Companii</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							  <a href="javascript:void(0);" class="nav-link" id="partner-tab" data-bs-toggle="tab" data-bs-target="#partner" role="tab" aria-controls="partner" aria-selected="false">Comercianti parteneri</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							  <a href="javascript:void(0);" class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" role="tab" aria-controls="about" aria-selected="false">Despre tbi group</a>
+						</li>
+					</ul>	
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="individuals" role="tabpanel" aria-labelledby="individuals-tab">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link active" href="aplicatia-tbi.html">Aplicatia tbi</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Depozite
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Depozite</a> </li>
+										<li><a class="dropdown-item" href="depozitul-online.html">Depozitul Online</a></li>
+										<li><a class="dropdown-item" href="depozitul-simplu.html">Depozitul Simplu</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Credite nevoi personale
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Credite nevoi personale</a> </li>
+										<li><a class="dropdown-item" href="creditul-tau-personal.html">Creditul standard</a></li>
+										<li><a class="dropdown-item" href="creditul-auto.html">Creditul auto</a></li>
+										<li><a class="dropdown-item" href="#">Creditul tbi duo</a></li>
+										<li><a class="dropdown-item" href="creditul-cash-zero.html">Creditul Cash Zero</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Cumpara acum, plateste mai tarziu
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Cumpara acum, plateste mai tarziu</a> </li>
+										<li><a class="dropdown-item" href="#">4 rate, 0% dobanda</a></li>
+										<li><a class="dropdown-item" href="#">Cumparaturi bunuri online</a></li>
+										<li><a class="dropdown-item" href="#">Cumparaturi bunuri din magazine</a></li>
+										<li><a class="dropdown-item" href="#">Servicii medicale in rate</a></li>
+										<li><a class="dropdown-item" href="#">Finantare auto</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Mai mult
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Mai mult</a> </li>
+										<li><a class="dropdown-item" href="#">Operatiuni numerar</a></li>
+										<li><a class="dropdown-item" href="#">Operatiuni cont curent</a></li>
+										<li><a class="dropdown-item" href="#">Rate de schimb</a></li>
+										<li><a class="dropdown-item" href="#">Ambasador tbi</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="company" role="tabpanel" aria-labelledby="company-tab">
+							<ul class="navbar-nav">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Credite companii
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Credite companii</a> </li>
+										<li><a class="dropdown-item" href="#">Credit online fara garantii</a></li>
+										<li><a class="dropdown-item" href="#">Credit pentru activitatea curenta</a></li>
+										<li><a class="dropdown-item" href="#">Credit de investitii</a></li>
+										<li><a class="dropdown-item" href="#">Credit dezvoltari imobiliare</a></li>
+										<li><a class="dropdown-item" href="#">Factoring</a></li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">Depozite</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Plati
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Plati</a> </li>
+										<li><a class="dropdown-item" href="#">Conturi</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="partner" role="tabpanel" aria-labelledby="partner-tab">
+							<ul class="navbar-nav">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Pentru parteneri
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Pentru parteneri</a> </li>
+										<li><a class="dropdown-item" href="#">Solutia noastra</a></li>
+										<li><a class="dropdown-item" href="#">Focus pe client</a></li>
+										<li><a class="dropdown-item" href="#">Integrare usoara</a></li>
+										<li><a class="dropdown-item" href="#">Parteneriat Gomag</a></li>
+										<li><a class="dropdown-item" href="#">tbi bank medical</a></li>
+										<li><a class="dropdown-item" href="#">Comercianti Parteneri</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Finantare business
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Finantare business</a> </li>
+										<li><a class="dropdown-item" href="#">Credit online companii</a></li>
+										<li><a class="dropdown-item" href="#">Credit pentru activitatea curenta</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Mai mult
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Mai mult</a> </li>
+										<li><a class="dropdown-item" href="#">Resurse</a></li>
+										<li><a class="dropdown-item" href="#">Login Companie</a></li>
+										<li><a class="dropdown-item" href="#">Devino partener tbi</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
+							<ul class="navbar-nav">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										tbi bank
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>tbi bank</a> </li>
+										<li><a class="dropdown-item" href="#">Echipa noastra</a></li>
+										<li><a class="dropdown-item" href="#">Contact</a></li>
+										<li><a class="dropdown-item" href="#">Cariere</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Reglementari
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Reglementari</a> </li>
+										<li><a class="dropdown-item" href="#">Politica de confidentialitate si protectia datelor</a></li>
+										<li><a class="dropdown-item" href="#">Actualizare date personale</a></li>
+										<li><a class="dropdown-item" href="#">Date legale si autorizatii</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Mai mult
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Mai mult</a> </li>
+										<li><a class="dropdown-item" href="#">Stiri</a></li>
+										<li><a class="dropdown-item" href="#">Blog</a></li>
+										<li><a class="dropdown-item" href="#">Program Bug Bounty</a></li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">Investitori</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="header-btn ms-auto d-none d-xl-block">
+					<a href="javascript:void(0);" class="btn light-btn">mytbi</a>
+				</div>
+			</nav>
+		</div>
+	</div>
+</header>
+<!-- header end -->
+
+<!-- content start -->
+<div class="content">
+
+	<div class="bg-0d0d0d">
+
+		<!-- Aplicatia Tbi Banner Start -->
+		<div class="aplicatia-tbi-wrp">
+			<div class="container">
+				<div class="aplicatia-tbi-main">
+					<div class="row align-items-center">
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="aplicatia-tbi-content">
+								<div class="banner-title font-weight-500 color-0d0d0d">
+									<h1>Aplicatia <strong>tbi</strong><br> Cumpara de oriunde si plateste in 4 rate fara dobanda!</h1>
+								</div>
+								<div class="common-detail">
+									<p>Nu ai aplicatia instalata?</p>
+								</div>
+								<div class="aplicatia-tbi-content-bottom">
+									<div class="aplicatia-tbi-qr">
+										<img src="images/qr.svg" alt="qr" class="img-fluid">
+									</div>
+									<div class="aplicatia-tbi-qr-details">
+										<div class="small-title">
+											<h2>Scaneaza codul QR</h2>
+										</div>
+										<div class="detail">
+											<p>sau descarca direct</p>
+										</div>
+										<div class="aplicatia-tbi-play-btn">
+											<a href="javascript:void(0);"><img src="images/google-btn.svg" alt="google-btn" class="img-fluid"></a>
+											<a href="javascript:void(0);"><img src="images/appl-btn.svg" alt="appl-btn" class="img-fluid"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="aplicatia-bnr-img">
+								<img src="images/aplicatia-bnr-img.webp" alt="aplicatia-bnr-img" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Aplicatia Tbi Banner End -->
+
+		<!-- Aplicatia Tbi benefits Start -->
+		<div class="tbi-benefits-wrp">
+			<div class="container">
+				<div class="tbi-benefits-main">
+					<div class="small-section-title">
+						<h2>Beneficii</h2>
+					</div>
+					<div class="tbi-benefits-row">
+						<div class="row">
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-block">
+									<div class="tbi-benefits-icon">
+										<img src="images/Shopping-Bags-1.png" alt="Shopping-Bags" class="img-fluid">
+									</div>
+									<div class="small-title">
+										<h3>Access la orice magazin online, ai peste 1.500</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-block">
+									<div class="tbi-benefits-icon">
+										<img src="images/Money-Bag-1.png" alt="Money-Bag" class="img-fluid">
+									</div>
+									<div class="small-title">
+										<h3>Obtii limita de cumparaturi in cateva minute</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-block">
+									<div class="tbi-benefits-icon">
+										<img src="images/scissors.png" alt="scissors" class="img-fluid">
+									</div>
+									<div class="small-title">
+										<h3>Imparti costul in 4 rate fara dobanda sau in pana la 60 de rate cu dobanda fixa</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-block">
+									<div class="tbi-benefits-icon">
+										<img src="images/Repeat-Button.png" alt="Repeat-Button" class="img-fluid">
+									</div>
+									<div class="small-title">
+										<h3>Retur simplu</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-block">
+									<div class="tbi-benefits-icon">
+										<img src="images/speak.png" alt="speak" class="img-fluid">
+									</div>
+									<div class="small-title">
+										<h3>Chat si suport in app</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-block">
+									<div class="tbi-benefits-icon">
+										<img src="images/Mobile-Phone-With-Arrow.svg" alt="Mobile-Phone-With-Arrow" class="img-fluid">
+									</div>
+									<div class="small-title">
+										<h3>Platesti ratele direct din app</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Aplicatia Tbi benefits End -->
+
+		<!-- Discover Categories Start -->
+		<div class="discover-categories-wrp">
+			<div class="discover-categories-main">
+				<div class="container">
+					<div class="small-section-title">
+						<h2>Descopera categoriile</h2>
+					</div>
+				</div>
+			</div>
+			<div class="discover-categories-slider">
+				<a href="javascript:void(0);" class="discover-categories-item">
+					<div class="discover-categories-img">
+						<img src="images/books.png" alt="books" class="img-fluid">
+					</div>
+					<div class="detail font-weight-500">
+						<p>Carti</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="discover-categories-item">
+					<div class="discover-categories-img">
+						<img src="images/Sport.png" alt="Sport" class="img-fluid">
+					</div>
+					<div class="detail font-weight-500">
+						<p>Sport</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="discover-categories-item">
+					<div class="discover-categories-img">
+						<img src="images/New-Project.png" alt="New-Project" class="img-fluid">
+					</div>
+					<div class="detail font-weight-500">
+						<p>Electro & IT</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="discover-categories-item">
+					<div class="discover-categories-img">
+						<img src="images/fashion.png" alt="fashion" class="img-fluid">
+					</div>
+					<div class="detail font-weight-500">
+						<p>Moda & Incaltaminte</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="discover-categories-item">
+					<div class="discover-categories-img">
+						<img src="images/cosmetics.png" alt="cosmetics" class="img-fluid">
+					</div>
+					<div class="detail font-weight-500">
+						<p>Cosmetice</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="discover-categories-item">
+					<div class="discover-categories-img">
+						<img src="images/jewelry.png" alt="jewelry" class="img-fluid">
+					</div>
+					<div class="detail font-weight-500">
+						<p>Bijuterii</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="discover-categories-item">
+					<div class="discover-categories-img">
+						<img src="images/home-decoration.png" alt="home-decoration" class="img-fluid">
+					</div>
+					<div class="detail font-weight-500">
+						<p>Casa & decoratiuni</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- Discover Categories End -->
+
+		<!-- Pay Smartly Start -->
+		<div class="pay-smartly-wrp">
+			<div class="container">
+				<div class="pay-smartly-main">
+					<div class="row align-items-center">
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="personal-credit-content">
+								<div class="small-section-title">
+									<h2>Plateste inteligent la orice magazin online</h2>
+								</div>
+								<div class="common-detail color-999">
+									<p>Peste 1.500 de magazine disponibile in app</p>
+								</div>
+								<a href="javascript:void(0);" class="btn btn-orange">Descarca aplicatia tbi</a>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="personal-credit-img">
+								<img src="images/shopping_pop_icons_1.png" alt="shopping_pop_icons" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Pay Smartly End -->
+
+		<!-- Aplicatia Tbi Banner Start -->
+		<div class="tbi-benefits-wrp">
+			<div class="container">
+				<div class="tbi-benefits-main">
+					<div class="small-section-title">
+						<h2>Viata este mai usoara cu tbi app</h2>
+					</div>
+					<div class="tbi-benefits-row">
+						<div class="row">
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-block">
+									<div class="tbi-benefits-icon">
+										<img src="images/Money-With-Wings.png" alt="Money-With-Wings" class="img-fluid">
+									</div>
+									<div class="small-title">
+										<h3>Faci cumparaturi inteligente</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-block">
+									<div class="tbi-benefits-icon">
+										<img src="images/Mobile-Phone-With-Arrow.svg" alt="Mobile-Phone-With-Arrow" class="img-fluid">
+									</div>
+									<div class="small-title">
+										<h3>Platesti ratele simplu</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-block">
+									<div class="tbi-benefits-icon">
+										<img src="images/hand.png" alt="hand" class="img-fluid">
+									</div>
+									<div class="small-title">
+										<h3>Extra finantare la un click distanta</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Aplicatia Tbi Banner End -->
+
+		<!-- Video Block Start -->
+		<div class="video-wrp">
+			<div class="container">
+				<div class="video-main">
+					<div class="row align-items-center">
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="video-block">
+								<img src="images/video-img.png" alt="video-img" class="img-fluid">
+								<a href="javascript:void(0);" class="video-icon" data-bs-toggle="modal" data-bs-target="#exampleModal">
+									<img src="images/play-icon.svg" alt="play-icon" class="img-fluid">
+								</a>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="video-content">
+								<div class="small-section-title">
+									<h3>Cumpara de oriunde si plateste in 4 rate fara dobanda!</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Video Block End -->
+
+		<!-- Pay Smartly Start -->
+		<div class="pay-smartly-wrp">
+			<div class="container">
+				<div class="pay-smartly-main">
+					<div class="row align-items-center">
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="personal-credit-content">
+								<div class="small-section-title">
+									<h2>Extra finantare la un click distanta</h2>
+								</div>
+								<div class="common-list orange-icon">
+									<ul>
+										<li>Oricand ai nevoie, poti solicita o suma extra de bani, direct din aplicatie.</li>
+										<li>In functie de profilul tau de client poti obtine pana la 75.000 lei.</li>
+										<li>Procesul este 100% digital, raspunsul vine instant, iar banii ajung in orice cont bancar doresti, de la orice banca din Romania.</li>
+									</ul>
+								</div>
+								<a href="javascript:void(0);" class="btn btn-orange">Descarca aplicatia tbi</a>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="personal-credit-img">
+								<img src="images/app_section_2_big.webp" alt="app_section_2_big" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Pay Smartly End -->
+
+	</div>
+	
+	<!-- Faq Start -->
+	<div class="faq-wrp bg-f4f4f4 top-faq">
+		<div class="container">
+			<div class="faq-main">
+				<div class="accordion" id="accordionExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								4 rate cu 0% dobanda
+							</button>
+						</h2>
+						  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<div class="common-detail">
+									<p><em>*Pentru cumparaturi in valoare de 1000 lei, pe o perioada de 4 luni, cu o dobanda anuala fixa de 0%, comisionul de analiza a dosarului&nbsp;este de 40 lei, rata lunara fixa este de 260 lei, Dobanda anuala efectiva (DAE) este de 20,80% iar, valoarea totala platibila este 1040 lei. Solicitarea de credit se analizeaza de tbi bank, conform politicii interne si reglementarilor legale in vigoare. Costurile creditului sunt personalizate in functie de profilul si istoricul tau de creditare, in functie de industria comerciantilor parteneri si valoarea bunurilor achizitionate. </em></p>
+								</div>
+							</div>
+						  </div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Pana la 60 de rate convenabile
+							</button>
+						</h2>
+						<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<div class="common-detail">
+									<p><em>**Pentru cumparaturi in valoare de 10.000 lei, pe o perioada de 60 luni, cu o dobanda anuala fixa de 20%, comisionul de analiza a dosarului este de 170 lei, prima de asigurare de viata este inclusa in rata si este in valoare de 1,220.40 lei, rata lunara fixa este de 301,78 lei, Dobanda anuala efectiva (DAE) este de 22.80% iar, valoarea totala platibila este 18,106.56 lei. Solicitarea de credit se analizeaza de tbi bank, conform politicii interne si reglementarilor legale in vigoare. Costurile creditului sunt personalizate in functie de profilul si istoricul tau de creditare, de industria comerciantilor parteneri si valoarea bunurilor achizitionate.</em></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Creditul cash 
+							</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<div class="common-detail">
+									<p><em>***Pentru un credit cash in valoare de 16.000 lei, pe o perioada de 60 luni, cu o dobanda anuala fixa de 26.90%, comisionul de analiza a dosarului este de 299 lei, prima de asigurare de viata este inclusa in rata si este in valoare de 3,618.38 lei, rata lunara fixa este de 606.99 lei, Dobanda anuala efectiva (DAE) este de 31.47% iar, valoarea totala platibila este 36,419.63 lei. Solicitarea de credit se analizeaza de tbi bank, conform politicii interne si reglementarilor legale in vigoare. Precentul de dobanda este fix si se va stabili in functie de profilul si istoricul tau de creditare, dar si in functie de optiunile tale pentru asigurarea de viata.</em></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Faq End -->
+
+	<div class="bg-fff mt-30">
+
+		<!-- Faq Start -->
+		<div class="faq-wrp">
+			<div class="container">
+				<div class="faq-inner">
+					<div class="small-section-title color-212934">
+						<h3>Intrebari frecvente</h3>
+					</div>
+					<div class="faq-main">
+						<div class="accordion" id="accordionExample1">
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+										Cum ma pot inregistra in aplicatie?
+									</button>
+								</h2>
+								<div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Descarci gratuit aplicatia din App Store sau Google Play.</p>
+											<p>Ulterior, pentru a-ti crea un cont de utilizator in aplicatia tbi trebuie doar sa deschizi aplicatia sau sa accesezi link-ul <strong>”Incepe”</strong>,disponibil pe oricare din paginile de prezentare ale aplicatiei – si sa urmezi pasii indicati.</p>
+											<p>Daca esti deja client <strong>tbi</strong> totul este super usor: completezi adresa de e-mail pe care ai declarat-o in relatia cu <strong>tbi</strong> bank si codul unic de autorizare pe care il vei primi pe numarul de telefon asociat profilului tau de client. Apoi, iti setezi parola cu care te sa te autentifici si gata… bun venit in aplicatia tbi!</p>
+											<p>Daca esti client nou, nu-ti face griji, e la fel de simplu! Incepe prin a introduce adresa ta de e-mail si alege parola cu care te vei autentifica in aplicatie. Ulterior, ne vei comunica numarul tau de telefon pe care il vom valida cu un cod unic, CNP-ul si, bineinteles, numele tau.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+										Inregistrarea in aplicatie implica eventuale costuri?
+									</button>
+								</h2>
+								<div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Inregistrarea ta in aplicatia tbi nu implica niciun cost, acum sau in viitor. E gratis, ca un zambet!</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+										Cum imi pot sterge contul de client?
+									</button>
+								</h2>
+								<div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Poti sterge contul de client oricand doresti, in doar cateva clickuri! Deschide aplicatia, acceseaza “Profilul meu”, apoi “Setarile contului” si alege -> “Solicita stergerea contului”.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+										Pot afla mai multe informatii despre ce date personale colecteaza tbi?
+									</button>
+								</h2>
+								<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Poti invoca dreptul tau la transferul datelor (art. 20 din Regulamentul general privind Protectia Datelor) printr-un e-mail adresat serviciului nostru de Relatii cu clientii – <a href="mailto:ccc@tbicallcenter.ro">ccc@tbicallcenter.ro</a> sau <a href="mailto:dpo@tbibank.ro">dpo@tbibank.ro</a>.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+										Cum imi pot modifica parola sau ce fac daca am uitat-o?
+									</button>
+								</h2>
+								<div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Ai uitat parola? Nicio problema! Dupa ce introduci adresa de e-mail in casuta pentru “Username”, cauta optiunea “Ai uitat parola?” pozitionata chiar sub campul “Parola”. Confirmi e-mailul cu care te-ai inregistrat si apesi butonul ‘Resetare parola’. Vei fi redirectionat automat catre o pagina dedicata unde poti seta si confirma noua ta parola. Dupa confirmarea noii parole, te poti intoarce in aplicatie si sa-ti accesezi contul folosind noua ta parola.</p>
+											<p><strong>Bonus</strong>: dupa prima ta autentificare in aplicatie, poti activa logarea cu date biometrice si spune “adio” parolelor greu de tinut minte!</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+										Cum pot face sa nu mai primesc notificari din aplicatie?
+									</button>
+								</h2>
+								<div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Notificarile tale sunt active inca de la inregistrarea contului si le poti dezactiva/activa oricand doresti. In sectiunea “Profilul meu” gasesti optiunea de “Activare/Dezactivare notificari”.
+											<p><strong>IMPORTANT!</strong> Informarile cu caracter important sau legislativ care influenteaza modul de utilizare al aplicatiei sau a relatiei contractuale cu tbi vor fi trimise indiferent de optiunea selectata de tine pentru primirea notificarilor.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+										Cum imi pot actualiza datele personale?
+									</button>
+								</h2>
+								<div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Nu poti modifica aceste date direct din app. In schimb, poti solicita actualizarea datelor personale din aplicatie, accesand “Profilul meu”, sectiunea “Contacteaza-ne”, “Actualizare date personale”.</p>
+											<p>Iti poti actualiza datele personale – simplu si rapid – de pe website-ul tbi, accesand <a href="https://tbibank.ro/despre-tbi-group/servicii-tbi-bank/actualizare-date-personale/">my tbi</a>.</p>
+											<p><strong>IMPORTANT!</strong> CNP-ul, numarul de telefon si adresa de e-mail pot fi utilizate pentru un singur cont in aplicatia tbi, iar in cazul in care doresti sa folosesti acelasi CNP, numar de telefon sau adresa de e-mail pentru un alt cont, te rugam sa stergi contul initial si apoi sa-l creezi pe cel nou.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+										Cum imi pot actualiza datele personale?
+									</button>
+								</h2>
+								<div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Nu poti modifica aceste date direct din app. In schimb, poti solicita actualizarea datelor personale din aplicatie, accesand “Profilul meu”, sectiunea “Contacteaza-ne”, “Actualizare date personale”.</p>
+											<p>Iti poti actualiza datele personale – simplu si rapid – de pe website-ul tbi, accesand <a href="https://tbibank.ro/despre-tbi-group/servicii-tbi-bank/actualizare-date-personale/">my tbi</a>.</p>
+											<p><strong>IMPORTANT!</strong> CNP-ul, numarul de telefon si adresa de e-mail pot fi utilizate pentru un singur cont in aplicatia tbi, iar in cazul in care doresti sa folosesti acelasi CNP, numar de telefon sau adresa de e-mail pentru un alt cont, te rugam sa stergi contul initial si apoi sa-l creezi pe cel nou.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+										Se pot crea 2 conturi cu acelasi numar de telefon? Daca nu, ce solutie am la indemana?
+									</button>
+								</h2>
+								<div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Nu, nu se pot crea doua conturi cu acelasi numar de telefon. Numarul de telefon poate fi utilizat pentru un singur cont in aplicatia tbi, iar in cazul in care doresti sa folosesti acelasi numar pentru un alt cont, te rugam sa stergi contul initial si apoi sa-l creezi pe cel nou.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+										Cum comand din aplicatia tbi?
+									</button>
+								</h2>
+								<div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Este atat de simplu sa comanzi produsele dorite direct din aplicatia tbi.</p>
+											<p>In functie de magazinul ales, exista doua modalitati de cumparare. Ambele incep la fel: dupa selectarea magazinul dorit, vei fi redirectionat pe website-ul acestuia. In continuare:</p>
+											<ol>
+											<li>Alegi produsele dorite, le adaugi in cosul de cumparaturi, iar in pasul de finalizare al comenzii, ca modalitate de plata, alegi plata prin rate tbi bank. Vei fi redirectionat in platforma tbi bank, unde vei urma pasii pentru obtinerea unei limite de credit din partea tbi bank. Daca cererea ta este aprobata, produsele comandate iti vor fi livrate de catre website-ul de pe care ai initiat comanda.</li>
+											<li>Alegi produsele dorite, le adaugi in cosul de cumparaturi tbi prin butonul ”<strong>Adauga in cosul tbi”</strong>. Urmezi apoi pasii din cosul de cumparaturi tbi: confirmi datele de contact si adresa de livrare si afli care este planul de plata pe care il poti alege in functie de valoarea totala a produselor din cosul tau. Ca si in primul caz, vei fi redirectionat apoi in platforma tbi bank, unde vei parcurge pasii pentru obtinerea unei limite de credit din partea tbi bank. Daca cererea ta este aprobata, produsele comandate iti vor fi livrate de catre website-ul pe care ai initiat comanda.</li>
+											</ol>
+											<p>Poti urmari detaliile comenzii tale in app, din sectiunea “Produsele mele”, tabul “Tranzactii”.</p>
+											<p>Vei fi notificat cu privire la statusul comenzii si al cererii de credit in app (daca ai notificarile activate) si prin e-mail.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+										Pentru a putea cumpara din aplicatia tbi, trebuie sa imi creez un cont?
+									</button>
+								</h2>
+								<div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Da. Pentru a comanda produsele dorite, direct din aplicatia tbi, este necesara inregistrarea unui cont de utilizator. Dupa ce descarci aplicatia, din App Store sau Play Store, urmezi pasii indicati si, in cel mai scurt timp, contul tau este creat si poti efectua cumparaturile dorite.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+										Cum anulez o comanda initiata prin aplicatia tbi?
+									</button>
+								</h2>
+								<div id="collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Este foarte simplu sa anulezi o comanda.</p>
+											<p>In functie de magazinul pe care ai initiat comanda, vei anula comanda conform unei modalitati de mai jos:</p>
+											<p>Solicitarea ta de credit a fost aprobata</p>
+											<ol>
+											<li>Daca ai initiat comanda pe website-ul comerciantului, alegand in pasul de finalizare al comenzii metoda de plata tbi bank, in cazul in care doresti anularea comenzii va exclus:
+											<ul>
+											<li>Sa accesezi website-ul pe care ai finalizat comanda si sa te autentifici in contul tau xclus pe website</li>
+											<li>Sa accesezi pagina de comenzi, sa indentifici comanda si sa o anulezi conform Termenilor si Conditiilor comerciantului.</li>
+											</ul>
+											</li>
+											<li>Daca ai initiat comanda prin procesul disponibil in aplicatia tbi, in cazul in care doresti anularea comenzii va xclusi:
+											<ul>
+											<li>Sa accesezi aplicatia tbi, sectiunea “Profilul meu”, tab-ul “Contacteaza-ne”</li>
+											<li>Sa ne contactezi prin subsectiunea “Cumparaturi”</li>
+											</ul>
+											</li>
+											</ol>
+											<p><strong>Atentie!</strong> Comanda plasata a fost achita printr-un credit online oferit de tbi bank. Este necesar ca in urma anularii comenzii, restituirea contravalorii produselor returnate sa se efectueze catre tbi bank. In cazul in care contravaloarea comenzii anulate nu este restituita, creditul tau online va ramane in continuare xclus.</p>
+											<p>Solicitarea ta de credit nu a primit un raspuns final</p>
+											<ol start="3">
+											<li>Daca ai initiat comanda pe website-ul comerciantului, alegand in pasul de finalizare al comenzii metoda de plata tbi bank, in cazul in care doresti anularea comenzii va xclusi:
+											<ul>
+											<li>Sa accesezi website-ul pe care ai finalizat comanda si sa te autentifici in contul tau xclus pe website</li>
+											<li>Sa accesezi pagina de comenzi, sa indentifici comanda si sa o anulezi conform Termenilor si Conditiilor comerciantului.</li>
+											</ul>
+											</li>
+											<li>Daca ai initiat comanda prin procesul disponibil in aplicatia tbi, in cazul in care doresti anularea comenzii va xclusi:
+											<ul>
+											<li>Sa accesezi aplicatia tbi, sectiunea “Produsele mele”, tab-ul “Tranzactii”</li>
+											<li>Sa identifici comanda si sa o accesezi printr-un simplu click/tap</li>
+											<li>Apesi pe “Anuleaza comanda”</li>
+											</ul>
+											</li>
+											</ol>
+											<p>IMPORTANT! Chiar daca ai accesat website-ul comerciantului din aplicatia tbi, tbi bank nu devine responsabil de anularea comenzii. Procesul se desfasoara xclusive pe platforma comerciantului si se supune Termenilor si Conditiilor acestuia.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+										Exista o valoare minima a comenzii?
+									</button>
+								</h2>
+								<div id="collapse13" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Daca vrei sa te bucuri de plata in rate fixe tbi, valoarea minima a comenzii este de 100 lei. In functie de valoarea cosului tau de cumparaturi, iti vom arata toate detaliile si costurile asociate cu finantarea prin tbi bank.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+										Exista o valoare maxima a comenzii?
+									</button>
+								</h2>
+								<div id="collapse14" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Pentru cumparaturile tale, poti primi pana la 60.000 de lei limita de credit. Cu toate acestea, valoarea maxima a comenzii tale va fi, de fapt, valoarea maxima pe care o poti accesa ca si credit in functie de profilul tau. In functie de valoarea comenzii tale iti vor fi prezentate datele si costurile tipului de credit online oferit de tbi in cadrul procesului online de creditare pe care il vei parcurge.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+										Cum efectuez un retur?
+									</button>
+								</h2>
+								<div id="collapse15" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Este foarte simplu sa returnezi produsele comandate.
+											<p>In functie de magazinul pe care ai plasat comanda, poti parcurge doua fluxuri de retur.</p>
+											<ol>
+												<li>Daca ai finalizat comanda pe website-ul comerciantului, alegand in pasul de finalizare al comenzii metoda de plata tbi bank, in caz de retur va trebui:
+
+													<ul>
+														<li>Sa accesezi website-ul pe care ai finalizat comanda si sa te autentifici in contul tau creat pe website</li>
+														<li>Sa completezi si sa trimiti cererea de retur conform Termenilor si Conditiilor comerciantului</li>
+														<li>Sa ne contactezi si sa ne informezi cu privire la efectuarea returului. Ne poti contacta din app din “Profilul meu”, sectiunea “Contacteaza-ne”</li>
+													</ul>
+													<p><strong>IMPORTANT!</strong>Chiar daca ai accesat website-ul comerciantului din aplicatia tbi, tbi bank nu devine responsabil de returnarea produselor si nici nu este informat de procesarea returului. Procesul se desfasoara exclusiv pe platforma comerciantului si se supune Termenilor si Conditiilor acestuia.</p>
+												</li>
+												<li> Daca ai finalizat comanda prin procesul disponibil in aplicatia tbi, in caz de retur va trebui:
+
+													<ul>
+														<li> Sa accesezi website-ul de pe care ai ales produsele comandate si sa te autentifici cu datele de logare furnizate de aplicatia tbi, disponibile in Profilul meu -> Retur sau in detaliile comenzii din Produsele mele -> Tranzactii, din aplicatia tbi, accesand butonul de Retur.</li>
+														<li>Sa completezi si sa trimiti cererea de retur conform Termenilor si Conditiilor comerciantului.</li>
+														<li>Sa selectezi la modul de returnare al banilor optiunea: In acelasi cont din care s-a efectuat plata. In cazul in care comerciantul nu ofera aceasta optiune, te rugam sa ne contactezi din Profilul meu -> Contacteaza-ne.</li>
+													</ul>
+												</li>
+											</ol>
+											<p><strong>Atentie!</strong> Comanda plasata a fost achitata printr-un credit online oferit de tbi bank. Este necesar ca in urma returnarii produselor, restituirea contravalorii produselor returnate sa se efectueze catre tbi bank. In cazul in care contravaloarea produselor returnate nu este restituita, creditul tau online va ramane in continuare activ.</p>
+											<p><strong>IMPORTANT!</strong> Desfasurarea procesului de retur nu este gestionata de tbi bank.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+										Cum se inchide creditul online tbi in urma returului?
+									</button>
+								</h2>
+								<div id="collapse16" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Daca doresti inchiderea creditului tau online, te rugam sa ne contactezi dupa efectuarea returului pentru a initia o cerere de inchidere. De asemenea, este important ca tbi bank sa receptioneze confirmarea procesarii returului din partea comerciantului pe website-ului caruia s-a initiat comanda inainte de a procesa cererea ta.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+										Pot vizualiza in aplicatie creditele mele la tbi?
+									</button>
+								</h2>
+								<div id="collapse17" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Da, poti vizualiza in aplicatia tbi creditele alocate contului tau de client.</p>
+											<p>Acceseaza “Produsele mele”, alege tabul “Imprumuturi” si vei putea vizualiza date informative despre creditele tale la <strong>tbi</strong> bank, precum tipul creditului, sumele de plata si datele scadente de plata.</p>
+											<p><strong>Atentie!</strong></p>
+											<p>Istoricul platilor tale nu este vizibil in timp real in tbi app. Suma datorata de plata se actualizeaza lunar conform datelor scadente comunicate in conditiile contractuale. Soldul afisat in tbi app va reflecta platile efectuate anterior scadentei lunare.</p>
+											<p>Ne poti scrie oricand, direct din app, accesand “Profilul meu”, sectiunea “Contacteaza-ne”.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+										Ce inseamna Credit Cash?
+									</button>
+								</h2>
+								<div id="collapse18" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Reprezinta suma eligibila sau suma maxima pe care o poti obtine prin accesarea unui credit cash (credit de nevoi personale), calculat orientativ de tbi bank, doar pentru clientii care au sau au avut un produs de creditare de la tbi.</p>
+											<p>Limita eligibila are un caracter informativ si se va stabili final de catre tbi, in momentul analizarii solicitarii de credit. Ulterior aprobarii cererii de catre tbi, disbursarea sumei aprobate se va putea efectua direct intr-un cont deschis la tbi bank, intr-un IBAN apartinand altei banci sau prin sucursalele CEC Bank.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+										Imi pot prelucra singur datele?
+									</button>
+								</h2>
+								<div id="collapse19" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Iti poti accesa datele personale (numele, data nasterii email, CNP si numarul de telefon) in contul de client, la sectiunea Profil. Datele pot fi actualizate prin trimiterea unui email catre tbi din sectiunea Ajutor/Actualizare date personale</p>
+											<p>Daca vrei sa iti schimbi adresa de e-mail, te rugam sa ii contactezi pe colegii nostri de la departamentul de relatii cu clientii.</p>
+											<p>Poti schimba adresa la urmatoarea comanda – trebuie doar sa introduci adresa de livrare sau facturare dorita in timpul procesului de comanda.</p>
+											<p>Din pacate, nu mai este posibil sa schimbi adresa dupa ce a fost plasata comanda. Dar nu iti face griji! Daca ai comandat la o adresa gresita, pachetul va fi returnat automat si suma platita de tine ta va fi rambursata. Poti depune apoi o noua comanda.</p>
+											<p>Vei primi intotdeauna un e-mail de confirmare dupa ce iti vei schimba datele personale.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+										Ce inseamna plata recurenta?
+									</button>
+								</h2>
+								<div id="collapse20" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Metoda “Plata recurenta” consta in plata lunara a ratelor aferente creditului tau prin debitarea automata a cardului folosit pentru plata ratei lunare.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+										Ce se intampla daca imi salvez cardul pentru platile viitoare?
+									</button>
+								</h2>
+								<div id="collapse21" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Poti alege sa salvezi in aplicatia tbi datele cardului tau cu care efectuezi plata ratei lunare. &nbsp;Vei putea folosi cardul salvat in aplicatia tbi la efectuarea urmatoarelor plati fara a mai fi nevoit sa reintroduci datele.</p>
+											<p>IMPORTANT! Aplicatia tbi nu salveaza si nu proceseaza datele cardului tau.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
+										Cum pot sterge un card salvat in app?
+									</button>
+								</h2>
+								<div id="collapse22" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Pentru a sterge un card salvat in aplicatia tbi, va trebui sa accesezi “Profilul meu” -&gt; “Carduri salvate”. Alegi cardul pe care doresti sa il stergi din aplicatie, iar dupa accesarea cardului se va afisa o lista de actiuni. Alege “Sterge cardul”.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse23" aria-expanded="false" aria-controls="collapse23">
+										Pot plati rata lunara fara sa salvez un card?
+									</button>
+								</h2>
+								<div id="collapse23" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Da, poti plati rata lunara chiar daca nu ai un card salvat in aplicatia tbi.</p>
+											<p>Tine cont ca la efectuarea urmatoarei plati, vei fi nevoit sa reintroduci datele cardului de pe care doresti sa faci plata.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse24" aria-expanded="false" aria-controls="collapse24">
+										Cum pot adauga un card nou?
+									</button>
+								</h2>
+								<div id="collapse24" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>In momentul in care faci o plata cu un card pe care nu l-ai salvat in aplicatie, te vom intreba daca vrei sa il salvezi ca sa iti fie usor la platiile viitoare. Daca alegi sa salvezi cardul in aplicatie, completeaza datele cardului in pagina procesatorului de plati, iar noi preluam in siguranta toate detaliile cardului tau. Daca alegi sa nu il salvezi, nu te ingrijora, te vom intreba din nou, la urmatoarea plata.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse25" aria-expanded="false" aria-controls="collapse25">
+										Pot vizualiza platile efectuate in timp real?
+									</button>
+								</h2>
+								<div id="collapse25" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Istoricul platilor tale nu este vizibil in timp real in tbi app. Suma datorata de plata se actualizeaza lunar conform datelor scadente comunicate in conditiile contractuale. Soldul afisat in tbi app va reflecta platile efectuate anterior scadentei lunare.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse26" aria-expanded="false" aria-controls="collapse26">
+										Pot plati o suma diferita fata de cea afisata in aplicatie?
+									</button>
+								</h2>
+								<div id="collapse26" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Da, poti plati o suma mai mare sau mai mica decat cea afisata in aplicatie. Iti recomandam sa platesti cel putin suma afisata, astfel incat rata lunara sa fie acoperita in intregime.</p>
+											<p>In cazul in care alegi sa platesti o suma mai mica decat cea afisata, rata lunara nu va fi acoperita si prin urmare vom fi nevoiti sa aplicam penalitati creditului tau.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse27" aria-expanded="false" aria-controls="collapse27">
+										Ce trebuie sa fac daca am platit deja rata lunara si am activata functionalitatea de plata recurenta?
+									</button>
+								</h2>
+								<div id="collapse27" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Daca ai platit deja rata lunara inainte de termenul scadent si ai plata optiunea de plata recurenta activa, te rugam sa ne contactezi oricand de Luni pana Vineri, in intervalul orar 08:00-17:00, la numarul de telefon 021 529 86 00 sau la adresa de e-mail ccc@tbicallcenter.ro.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse28" aria-expanded="false" aria-controls="collapse28">
+										Cum pot accesa un credit cash?
+									</button>
+								</h2>
+								<div id="collapse28" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Simplu si rapid, direct din aplicatie!</p>
+											<p>Din ecranul principal, accesezi sectiunea “Credit Cash” sau click pe butonul “Obtine un credit cash de pana la…” aflat in partea de sus a ecranului, in home page, iar apoi click pe butonul “Obtine”. Vei fi directionat automat in pagina de start a cererii tale, unde vei putea alege suma dorita, numarul de rate si asigurarea creditului.</p>
+											<p>In continuare, vei urma fluxul de creditare tbi – in maximum 10 minute vei putea completa toate datele de care avem nevoie. Evaluam rapid profilul tau si iti dam un raspuns in cel mai scurt timp posibil. Daca cererea ta va fi aprobata, suma aprobata va putea ajunge in contul tau in doar 24 de ore daca ai facut cererea intr-una din zilele lucratoare, de luni pana vineri. Disbursarea sumei aprobate se va putea efectua direct intr-un cont deschis la tbi bank, intr-un IBAN apartinand altei banci sau prin sucursalele CEC Bank.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Faq End -->
+
+		<!-- Regulations Start -->
+		<div class="regulations-wrp">
+			<div class="container">
+				<div class="regulations-main">
+					<div class="small-section-title color-212934">
+						<h3>Regulamente</h3>
+					</div>
+					<div class="regulations-list">
+						<div class="row">
+							<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+								<a class="regulations-block" href="javascript:void(0);">
+									<img src="images/icn-download-pdf-4k.png" alt="pdf" class="img-fluid">
+									<span>Regulamentul Campaniei 4 rate fara dobanda pana in 2000 lei</span>
+								</a>
+							</div>
+							<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+								<a class="regulations-block" href="javascript:void(0);">
+									<img src="images/icn-download-pdf-4k.png" alt="pdf" class="img-fluid">
+									<span>Regulamentul campaniei Cadouri de Paste cu tbi app</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Regulations End -->
+
+	</div>
+
+</div>
+<!-- content end -->
+
+<!-- Modal -->  
+<div class="modal modal-video fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+			</div>
+			<div class="modal-body">
+				<iframe id="youtube-3859" frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Player for Cum cumperi cu aplicația tbi?" width="640" height="360" src="https://www.youtube.com/embed/yWQkssH6K8M?autoplay=1&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;cc_load_policy=0&amp;cc_lang_pref=auto&amp;widget_referrer=https%3A%2F%2Ftbibank.ro%2Faplicatia-tbi%2F&amp;rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;customControls=true&amp;noCookie=false&amp;enablejsapi=1&amp;origin=https%3A%2F%2Ftbibank.ro&amp;widgetid=1" data-gtm-yt-inspected-8070407_56="true" data-gtm-yt-inspected-13="true" data-gtm-yt-inspected-18="true"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- footer start -->
+<footer class="footer">
+	<div class="footer-top">
+		<div class="container">
+			<div class="footer-main">
+				<div class="row">
+					<div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+						<div class="ftr-left">
+							<div class="row">
+								<div class="col-sm-6 col-md-3 col-lg-6 col-xl-6 col-xxl-6">
+									<div class="ftr-block">
+										<div class="ftr-title">
+											<h5>tbi bank</h5>
+										</div>
+										<ul>
+											<li><a href="#">Reglementari</a></li>
+											<li><a href="#">Actualizare date personale</a></li>
+											<li><a href="#">Cariere</a></li>
+											<li><a href="#">Webinar</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-3 col-lg-6 col-xl-6 col-xxl-6">
+									<div class="ftr-block">
+										<div class="ftr-title">
+											<h5>Legal</h5>
+										</div>
+										<ul>
+											<li><a href="#">Termeni si conditii</a></li>
+											<li><a href="#">Politica de confidentialitate si protectia datelor</a></li>
+											<li><a href="#">Politica de cookie-uri</a></li>
+											<li><a href="#">Securitate online</a></li>
+											<li><a href="#">Whistleblowing</a></li>
+											<li><a href="#">Documente</a></li>
+											<li><a href="#">Bancassurance</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-3 col-lg-6 col-xl-6 col-xxl-6">
+									<div class="ftr-block">
+										<div class="ftr-title">
+											<h5>Mai mult</h5>
+										</div>
+										<ul>
+											<li><a href="#">Promotii incheiate</a></li>
+											<li><a href="#">Modalitati de plata a ratei</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-3 col-lg-6 col-xl-6 col-xxl-6">
+									<div class="ftr-block">
+										<div class="ftr-title">
+											<h5>Contact</h5>
+										</div>
+										<ul>
+											<li><a href="#">Luni – Vineri <br> 08:00 – 17:00</a></li>
+											<li><a href="#">Sambata – Duminica Inchis</a></li>
+											<li><a href="0215298600">021 529 8600</a></li>
+											<li><a href="mailto:ccc@tbicallcenter.ro">ccc@tbicallcenter.ro</a></li>
+											<li><a href="#" class="text-decoration">Cauta o agentie</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+						<div class="ftr-right">
+							<div class="row">
+								<div class="col-sm-5 col-lg-5 col-xl-5 col-xxl-5">
+									<div class="ftr-title">
+										<h5>tbi asset management and servicing S.A. (fosta tbi leasing S.A.)</h5>
+									</div>
+									<ul>
+										<li><a href="#">tbi money</a></li>
+										<li><a href="#">Actualizare date personale</a></li>
+									</ul>
+								</div>
+								<div class="col-sm-7 col-lg-7 col-xl-7 col-xxl-7">
+									<div class="ftr-app">
+										<div class="ftr-flex">
+											<div class="ftr-title">
+												<h5>Descarca gratuit aplicatia tbi</h5>
+												<p>Transforma-ti cumparaturile in experiente fara griji</p>
+											</div>
+											<div class="ftr-phone">
+												<img src="images/new_footer_appscreen_Final.png" class="img-fluid" alt="">
+											</div>
+										</div>
+										<div class="download-app__links">
+											<div class="download-app__links-qrcode">
+												<img width="592" height="592" src="https://tbibank.ro/wp-content/uploads/2023/02/website.png" alt="" class="img-fluid">
+											</div>
+											<div class="download-app__links-items">
+												<div class="download-app__links-header">Scaneaza codul QR</div>
+												<div class="download-app__links-descr">sau descarca gratuit din:</div>
+												<div class="download-app__links-mob">
+													<a href="#" class="download-app__btn">
+														<div class="download-app__btn-icon">
+															<img width="20px" src="images/google_play_btn.svg" class="img-fluid"  alt="" >
+														</div>
+														<div>
+															<div class="download-app__btn-label">
+																<img width="45px" src="images/footer-google-play-label.svg" class="img-fluid" alt="" >
+															</div>
+															<div class="download-app__btn-name">
+																<img width="58px" src="images/footer-google-play-name.png" class="img-fluid" alt="" >
+															</div>
+														</div>
+													</a>
+													<a href="#" class="download-app__btn">
+														<div class="download-app__btn-icon">
+															<img width="17px" src="images/footer-app-store-icon.png" class="img-fluid" alt="" >
+														</div>
+														<div>
+															<div class="download-app__btn-label">
+																<img width="41px" src="images/footer-app-store-label.svg" class="img-fluid" alt="">
+															</div>
+															<div class="download-app__btn-name">
+																<img width="55px" src="images/footer-app-store-name.png" class="img-fluid" alt="" >
+															</div>
+														</div>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-last">
+		<div class="container">
+			<div class="footer-last-main">
+				<div class="footer-last-main-left">
+					<div class="footer-tbi-logo">
+						<a href="#">
+							<img src="images/footer-tbi-logo.svg" class="img-fluid" alt="footer-tbi-logo">
+						</a>
+					</div>
+					<div class="insolventa">
+						<a href="#">
+							<img src="images/insolventa-PICTOGRAMA-1.png" class="img-fluid" alt="insolventa-PICTOGRAMA">
+						</a>
+					</div>
+				</div>
+				<div class="footer-last-main-right">
+					<ul>
+						<li><a href="#"><img src="images/fb-small.svg" class="img-fluid" alt="icon"></a></li>
+						<li><a href="#"><img src="images/insta-small.svg" class="img-fluid" alt="icon"></a></li>
+						<li><a href="#"><img src="images/linked-square.svg" class="img-fluid" alt="icon"></a></li>
+					</ul>
+					<div class="detail">
+						<h6>2024 tbi bank</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- footer end -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.7.0.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Bootstrap Bundle with Popper -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- Slick Slider -->
+<script src="js/slick.min.js"></script>
+<!-- Font Awesome -->
+<script src="js/all.min.js"></script>
+<!-- ofi -->
+<script src="js/ofi.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

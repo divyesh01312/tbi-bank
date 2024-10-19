@@ -1,0 +1,1089 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>tbi Bank</title>
+<meta name="description" content="" />
+<meta name="title" content="" />
+<meta name="keywords" content="" />
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">	
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!--=== Add By Designer ===-->
+<link href="css/style.css" rel="stylesheet">
+<link href="fonts/fonts.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<!-- Slick Slider -->
+<link href="css/slick.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="css/all.min.css" rel="stylesheet">
+<!--=== Windows Phone JS Code Start ===-->
+<script>
+	if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+		var msViewportStyle = document.createElement('style')
+		msViewportStyle.appendChild(
+			document.createTextNode(
+				'@-ms-viewport{width:auto!important}'
+				)
+			)
+		document.querySelector('head').appendChild(msViewportStyle)
+	}
+</script>
+<!--=== Windows Phone JS Code End ===-->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<!-- header start -->
+<header class="header">
+	<div class="top-header">
+		<div class="container">
+			<div class="top-header-inner">
+				<ul class="nav nav-tabs d-none d-xl-flex" id="myTab" role="tablist">
+					<li class="nav-item" role="presentation">
+						  <a href="javascript:void(0);" class="nav-link active" id="individuals-tab" data-bs-toggle="tab" data-bs-target="#individuals" role="tab" aria-controls="individuals" aria-selected="true">Persoane fizice</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						  <a href="javascript:void(0);" class="nav-link" id="company-tab" data-bs-toggle="tab" data-bs-target="#company" role="tab" aria-controls="company" aria-selected="false">Companii</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						  <a href="javascript:void(0);" class="nav-link" id="partner-tab" data-bs-toggle="tab" data-bs-target="#partner" role="tab" aria-controls="partner" aria-selected="false">Comercianti parteneri</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						  <a href="javascript:void(0);" class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" role="tab" aria-controls="about" aria-selected="false">Despre tbi group</a>
+					</li>
+				</ul>	
+				<div class="language-dropdown">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  	Ro
+						</button>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#"><img src="images/flag-greece.svg" alt="flag-greece" class="img-fluid"><span>gr</span></a></li>
+							<li><a class="dropdown-item" href="#"><img src="images/flag-romania.svg" alt="flag-romania" class="img-fluid"><span>ro</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="bottom-header">
+		<div class="container">
+			<nav class="navbar navbar-expand-xl">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.svg" alt="logo" class="img-fluid">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="nav nav-tabs d-flex d-xl-none" id="myTab" role="tablist">
+						<li class="nav-item" role="presentation">
+							  <a href="javascript:void(0);" class="nav-link active" id="individuals-tab" data-bs-toggle="tab" data-bs-target="#individuals" role="tab" aria-controls="individuals" aria-selected="true">Persoane fizice</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							  <a href="javascript:void(0);" class="nav-link" id="company-tab" data-bs-toggle="tab" data-bs-target="#company" role="tab" aria-controls="company" aria-selected="false">Companii</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							  <a href="javascript:void(0);" class="nav-link" id="partner-tab" data-bs-toggle="tab" data-bs-target="#partner" role="tab" aria-controls="partner" aria-selected="false">Comercianti parteneri</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							  <a href="javascript:void(0);" class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" role="tab" aria-controls="about" aria-selected="false">Despre tbi group</a>
+						</li>
+					</ul>	
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="individuals" role="tabpanel" aria-labelledby="individuals-tab">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="aplicatia-tbi.html">Aplicatia tbi</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Depozite
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Depozite</a> </li>
+										<li><a class="dropdown-item" href="depozitul-online.html">Depozitul Online</a></li>
+										<li><a class="dropdown-item" href="depozitul-simplu.html">Depozitul Simplu</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button">
+										Credite nevoi personale
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Credite nevoi personale</a> </li>
+										<li><a class="dropdown-item" href="creditul-tau-personal.html">Creditul standard</a></li>
+										<li><a class="dropdown-item" href="creditul-auto.html">Creditul auto</a></li>
+										<li><a class="dropdown-item" href="#">Creditul tbi duo</a></li>
+										<li><a class="dropdown-item active" href="creditul-cash-zero.html">Creditul Cash Zero</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Cumpara acum, plateste mai tarziu
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Cumpara acum, plateste mai tarziu</a> </li>
+										<li><a class="dropdown-item" href="#">4 rate, 0% dobanda</a></li>
+										<li><a class="dropdown-item" href="#">Cumparaturi bunuri online</a></li>
+										<li><a class="dropdown-item" href="#">Cumparaturi bunuri din magazine</a></li>
+										<li><a class="dropdown-item" href="#">Servicii medicale in rate</a></li>
+										<li><a class="dropdown-item" href="#">Finantare auto</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Mai mult
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Mai mult</a> </li>
+										<li><a class="dropdown-item" href="#">Operatiuni numerar</a></li>
+										<li><a class="dropdown-item" href="#">Operatiuni cont curent</a></li>
+										<li><a class="dropdown-item" href="#">Rate de schimb</a></li>
+										<li><a class="dropdown-item" href="#">Ambasador tbi</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="company" role="tabpanel" aria-labelledby="company-tab">
+							<ul class="navbar-nav">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Credite companii
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Credite companii</a> </li>
+										<li><a class="dropdown-item" href="#">Credit online fara garantii</a></li>
+										<li><a class="dropdown-item" href="#">Credit pentru activitatea curenta</a></li>
+										<li><a class="dropdown-item" href="#">Credit de investitii</a></li>
+										<li><a class="dropdown-item" href="#">Credit dezvoltari imobiliare</a></li>
+										<li><a class="dropdown-item" href="#">Factoring</a></li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">Depozite</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Plati
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Plati</a> </li>
+										<li><a class="dropdown-item" href="#">Conturi</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="partner" role="tabpanel" aria-labelledby="partner-tab">
+							<ul class="navbar-nav">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Pentru parteneri
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Pentru parteneri</a> </li>
+										<li><a class="dropdown-item" href="#">Solutia noastra</a></li>
+										<li><a class="dropdown-item" href="#">Focus pe client</a></li>
+										<li><a class="dropdown-item" href="#">Integrare usoara</a></li>
+										<li><a class="dropdown-item" href="#">Parteneriat Gomag</a></li>
+										<li><a class="dropdown-item" href="#">tbi bank medical</a></li>
+										<li><a class="dropdown-item" href="#">Comercianti Parteneri</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Finantare business
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Finantare business</a> </li>
+										<li><a class="dropdown-item" href="#">Credit online companii</a></li>
+										<li><a class="dropdown-item" href="#">Credit pentru activitatea curenta</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Mai mult
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Mai mult</a> </li>
+										<li><a class="dropdown-item" href="#">Resurse</a></li>
+										<li><a class="dropdown-item" href="#">Login Companie</a></li>
+										<li><a class="dropdown-item" href="#">Devino partener tbi</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
+							<ul class="navbar-nav">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										tbi bank
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>tbi bank</a> </li>
+										<li><a class="dropdown-item" href="#">Echipa noastra</a></li>
+										<li><a class="dropdown-item" href="#">Contact</a></li>
+										<li><a class="dropdown-item" href="#">Cariere</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Reglementari
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Reglementari</a> </li>
+										<li><a class="dropdown-item" href="#">Politica de confidentialitate si protectia datelor</a></li>
+										<li><a class="dropdown-item" href="#">Actualizare date personale</a></li>
+										<li><a class="dropdown-item" href="#">Date legale si autorizatii</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+										Mai mult
+									</a>
+									<span class="down-arrow" data-bs-toggle="dropdown" aria-expanded="false"><div class="d-none d-xl-block"><i class="fa-solid fa-angle-down"></i></div><div class="d-block d-xl-none"><i class="fa-solid fa-arrow-right"></i></div></span>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="back-btn d-block d-xl-none" data-bs-toggle="dropdown"><a href="javascript:void(0);"><span><i class="fa-solid fa-arrow-left"></i></span>Mai mult</a> </li>
+										<li><a class="dropdown-item" href="#">Stiri</a></li>
+										<li><a class="dropdown-item" href="#">Blog</a></li>
+										<li><a class="dropdown-item" href="#">Program Bug Bounty</a></li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">Investitori</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="header-btn ms-auto d-none d-xl-block">
+					<a href="javascript:void(0);" class="btn light-btn">mytbi</a>
+				</div>
+			</nav>
+		</div>
+	</div>
+</header>
+<!-- header end -->
+
+<!-- content start -->
+<div class="content">
+
+	<div class="bg-fff">
+
+		<!-- Personla Credit Banner Strat -->
+		<div class="personal-credit-bnr-wrp">
+			<div class="container">
+				<div class="personal-credit-bnr-main">
+					<div class="row">
+						<div class="col-lg-6 col-xl-6 col-xxl-6">
+							<div class="personal-credit-content">
+								<div class="banner-title font-52 color-0d0d0d">
+									<h1>Creditul CASH Zero​</h1>
+								</div>
+								<div class="common-detail">
+									<p>Alege inteligent si te bucuri de libertate financiara! Ezitarile nu-si au rostul atunci cand vine vorba de noul credit CASH Zero de la tbi. Ai 4 luni de gratie in care poti rambursa creditul rapid, fara dobanda.</p>
+								</div>
+								<div class="common-list orange-icon">
+									<ul>
+										<li>Pana la 30.000 lei, in doar cateva minute</li>
+										<li>Ai primele 4 luni gratie cu 0% dobanda</li>
+										<li>Proces 100% online, de oriunde ai fi, fara drumuri la banca</li>
+										<li>Ai nevoie doar de buletin, daca veniturile tale sunt raportate la ANAF</li>
+										<li>Poti solicita creditul si cu venituri din strainatate</li>
+										<li>Primesti banii in orice cont bancar ai, la orice banca din Romania</li>
+									</ul>
+								</div>
+								<div class="personal-credit-bnr-img d-none d-lg-block">
+									<img src="images/tibi_yoga.svg" alt="tibi_yoga" class="img-fluid">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-xl-6 col-xxl-6">
+							<div class="personal-credit-bnr-right">
+								<iframe loading="lazy" id="calc1" src="https://tbibank.ro/wp-content/uploads/2024/04/calculator_PROD_7_Zero.html" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://tbibank.ro/wp-content/uploads/2024/04/calculator_PROD_7_Zero.html" data-ll-status="loaded" class="entered lazyloaded"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Personla Credit Banner End -->
+
+	</div>
+
+	<div class="bg-0d0d0d">
+
+		<!-- Benefits Start -->
+		<div class="tbi-benefits-wrp tbi-benefits-wrp1">
+			<div class="container">
+				<div class="tbi-benefits-main">
+					<div class="small-section-title">
+						<h2>Beneficii</h2>
+					</div>
+					<div class="tbi-benefits-row">
+						<div class="row">
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-inner">
+									<div class="tbi-benefits-block">
+										<div class="tbi-benefits-icon">
+											<img src="images/Hourglass-Done.png" alt="Hourglass" class="img-fluid">
+										</div>
+										<div class="small-title">
+											<h3>Perioada de gratie</h3>
+										</div>
+									</div>
+									<div class="detail">
+										<p>Primele 4 rate lunare. Valoarea maxima a creditului 30.000 Lei</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-inner">
+									<div class="tbi-benefits-block">
+										<div class="tbi-benefits-icon">
+											<img src="images/Calendar.png" alt="Calendar" class="img-fluid">
+										</div>
+										<div class="small-title">
+											<h3>Durata creditului</h3>
+										</div>
+									</div>
+									<div class="detail">
+										<p>Durata creditului</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-inner">
+									<div class="tbi-benefits-block">
+										<div class="tbi-benefits-icon">
+											<img src="images/Briefcase.png" alt="Briefcase" class="img-fluid">
+										</div>
+										<div class="small-title">
+											<h3>Primesti banii intr-un cont personal</h3>
+										</div>
+									</div>
+									<div class="detail">
+										<p>deschis la orice banca din Romania</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-inner">
+									<div class="tbi-benefits-block">
+										<div class="tbi-benefits-icon">
+											<img src="images/Money-Mouth-Face.png" alt="Money-Mouth-Face" class="img-fluid">
+										</div>
+										<div class="small-title">
+											<h3>Venituri</h3>
+										</div>
+									</div>
+									<div class="detail">
+										<p>Se accepta si veniturile din salarii obtinute in strainatate.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-inner">
+									<div class="tbi-benefits-block">
+										<div class="tbi-benefits-icon">
+											<img src="images/check-mark-button.png" alt="check-mark-button" class="img-fluid">
+										</div>
+										<div class="small-title">
+											<h3>Aprobare rapida</h3>
+										</div>
+									</div>
+									<div class="detail">
+										<p>Minim de documente. Nu este necesara justificarea finantarii</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-inner">
+									<div class="tbi-benefits-block">
+										<div class="tbi-benefits-icon">
+											<img src="images/Money-Bag-1.png" alt="Money-Bag" class="img-fluid">
+										</div>
+										<div class="small-title">
+											<h3>Finantare</h3>
+										</div>
+									</div>
+									<div class="detail">
+										<p>Pot beneficia de finantare si pensionarii pe caz de boala. Varsta maxima a aplicantului la data finalizarii contractului de credit - 75 ani.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-inner">
+									<div class="tbi-benefits-block">
+										<div class="tbi-benefits-icon">
+											<img src="images/Shield.svg" alt="Shield" class="img-fluid">
+										</div>
+										<div class="small-title">
+											<h3>Asigurare inclusa</h3>
+										</div>
+									</div>
+									<div class="detail">
+										<p>Alegand creditul tbi cu asigurare inclusa vei avea protectie financiara</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Benefits End -->
+
+		<!-- Personal Credit Start -->
+		<div class="personal-credit-wrp personal-credit-wrp3">
+			<div class="container">
+				<div class="personal-credit-row m-0">
+					<div class="row align-items-center">
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="personal-credit-img">
+								<img src="images/zero-banner-1.png" alt="zero-banner" class="img-fluid">
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="personal-credit-content m-0">
+								<div class="small-section-title">
+									<h3>Obtine creditul CASH Zero</h3>
+								</div>
+								<div class="common-detail">
+									<p>Este pentru tine daca vrei un credit pe o perioada scurta de timp (maxim 48 luni). Este pentru tine daca nu ai mai avut un credit tbi pana acum sau ai avut dar l-ai rambursat integral cu mai mult de trei ani in urma si daca iti doresti o suma mai mica de bani pe care sa o returnezi rapid. Solicita creditul <strong>CASH Zero:</strong></p>
+								</div>
+								<div class="common-list orange-icon m-0">
+									<ul>
+										<li>Online, direct din aceasta pagina, folosind calculatorul</li>
+										<li>Call Center <a href="tel:0215298600">021 529 86 00</a></li>
+										<li>In <a href="#">reteaua de sucursale</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Personal Credit End -->
+
+		<!-- Graph Start -->
+		<div class="graph-wrp">
+			<div class="container">
+				<div class="graph-main">
+					<div class="graph-title">
+						<div class="small-section-title">
+							<h3>Grafic</h3>
+						</div>
+						<div class="common-detail color-999">
+							<p>Beneficiezi de ZERO costuri daca rambursezi intreaga datorie in termen de 4 luni. Daca nu reusesti sa rambursezi suma in primele 4 luni, nu este nicio problema, vei rambursa creditul in rate egale in functie de perioada aleasa initial, pana la 48 de luni.</p>
+						</div>
+					</div>
+					<div class="graph-section d-none d-md-block">
+						<div class="graph-circles-main">
+							<div class="graph-circle graph-circle-large circle-orange">
+								<span>0 LUNI</span>
+							</div>	
+							<div class="graph-circle circle-orange"></div>	
+							<div class="graph-circle circle-orange"></div>	
+							<div class="graph-circle graph-circle-large">
+								<span>4 LUNI</span>
+							</div>	
+							<div class="graph-circle"></div>	
+							<div class="graph-circle"></div>	
+							<div class="graph-circle"></div>	
+							<div class="graph-circle"></div>	
+							<div class="graph-circle"></div>	
+							<div class="graph-circle"></div>	
+							<div class="graph-circle graph-circle-large">
+								<span>48 LUNI</span>
+							</div>	
+						</div>
+						<div class="graph-details-top">
+							<div class="graph-details">
+								<div class="color-f60">
+									<p>achitat integral</p>
+								</div>
+								<div class="graph-details-value">
+									<span>dae</span>
+									<h4>0%</h4>
+								</div>
+							</div>
+							<div class="graph-details">
+								<div class="color-484a56">
+									<p>suma ramasa de plata, conform graficului de rambursare</p>
+								</div>
+								<div class="graph-details-value">
+									<span>dae</span>
+									<h4>38,10%</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="graph-slider d-block d-md-none">
+						<div class="graph-items">
+							<div class="graph-circles-main">
+								<div class="graph-circle graph-circle-large circle-orange">
+									<span>0 LUNI</span>
+								</div>	
+								<div class="graph-circle circle-orange"></div>	
+								<div class="graph-circle circle-orange"></div>	
+								<div class="graph-circle circle-orange graph-circle-large">
+									<span>4 LUNI</span>
+								</div>	
+							</div>
+							<div class="graph-details-top">
+								<div class="graph-details">
+									<div class="color-f60">
+										<p>achitat integral</p>
+									</div>
+									<div class="graph-details-value">
+										<span>dae</span>
+										<h4>0%</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="graph-items">
+							<div class="graph-circles-main">
+								<div class="graph-circle graph-circle-large">
+									<span>4 LUNI</span>
+								</div>	
+								<div class="graph-circle"></div>	
+								<div class="graph-circle"></div>	
+								<div class="graph-circle"></div>	
+								<div class="graph-circle"></div>	
+								<div class="graph-circle"></div>	
+								<div class="graph-circle"></div>	
+								<div class="graph-circle graph-circle-large">
+									<span>48 LUNI</span>
+								</div>	
+							</div>
+							<div class="graph-details-top">
+								<div class="graph-details">
+									<div class="color-484a56">
+										<p>suma ramasa de plata, conform graficului de rambursare</p>
+									</div>
+									<div class="graph-details-value">
+										<span>dae</span>
+										<h4>38,10%</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Graph End -->
+
+		<!-- Payment Methods Start -->
+		<div class="payment-methods-wrp">
+			<div class="small-section-title">
+				<h3>Modalitati de plata a ratei</h3>
+			</div>
+			<div class="payment-methods-slider">
+				<div class="payment-methods-item" style="background-color: #dda485;">
+					<div class="small-section-title">
+						<h3>La punctele de incasare PayPoint</h3>
+					</div>
+					<div class="common-detail">
+						<p>Terminalele <strong>PayPoint</strong> sunt prezente aproape in orice punct comercial semnificativ.</span></p>
+						<p>Cel mai apropiat partener <strong>PayPoint</strong> care ofera serviciile de care aveti nevoie este disponibil <a href="https://ro-ro.paypoint.com/harta-plati-facturi-incarcare-electronica">aici</a></span	>.</span></p>
+					</div>
+				</div>
+				<div class="payment-methods-item" style="background-color: #89c3e5;">
+					<div class="small-section-title">
+						<h3>Plata prin un-doi</h3>
+					</div>
+					<div class="common-detail">
+						<p><a href="javascript:void(0);">Vezi locatiile</a></p>
+						<p>Plati cu codul de bare la locatia de plata sau prin aplicatia mobila, cu numarul contractului si CNP.</p>
+					</div>
+				</div>
+				<div class="payment-methods-item" style="background-color: #d28be8;">
+					<div class="small-section-title">
+						<h3>Terminalele Selfpay</h3>
+					</div>
+					<div class="common-detail">
+						<p><a href="javascript:void(0);">SelfPay</a></p>
+						<p>Plata la orice terminal SelfPay se va face prin scanarea codului de bare de pe documentul de plata, sau prin introducerea CNP-ului titularului de contract. Vezi lista statiilor de plata SelfPay.</p>
+					</div>
+				</div>
+				<div class="payment-methods-item" style="background-color: #dd85bd;">
+					<div class="small-section-title">
+						<h3>Prin transfer bancar sau depunere in numerar</h3>
+					</div>
+					<div class="common-detail">
+						<p>Poti plati ratele prin transfer bancar sau depunere numerar.</p>
+					</div>
+				</div>
+				<div class="payment-methods-item" style="background-color: #8ae5e5;">
+					<div class="small-section-title">
+						<h3>Plata din aplicatia tbi</h3>
+					</div>
+					<div class="common-detail">
+						<p><a href="#">Descarca acum</a></p>
+						<p>Plateste-ti ratele simplu si rapid direct din telefon. Descarca gratuit aplicatia tbi din Google Play sau App Store. <a href="https://www.youtube.com/watch?v=EVJbeGsyll8&amp;t=0s&amp;ab_channel=tbibankRomania" target="_blank" rel="noopener">Vezi cat e de simplu.</a></p>
+					</div>
+				</div>
+				<div class="payment-methods-item" style="background-color: #8be892;">
+					<div class="small-section-title">
+						<h3>Plata online</h3>
+					</div>
+					<div class="common-detail">
+						<p><a href="#">Plateste online</a></p>
+						<p><strong>Oricand, foarte simplu si rapid.</strong> Oricand, simplu si rapid! Am creat o platforma speciala unde puteti plati ratele, in 3 pasi simpli, cu cardul personal (debit).</p>
+					</div>
+				</div>
+				<div class="payment-methods-item" style="background-color: #8995e5;">
+					<div class="small-section-title">
+						<h3>Plata recurenta</h3>
+					</div>
+					<div class="common-detail">
+						<p>Metoda de plata „Plata recurenta” consta in plata lunara a ratelor de credit prin debitarea automata a contului de card.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Payment Methods End -->
+
+		<!-- Personal Credit Start -->
+		<div class="personal-credit-wrp personal-credit-wrp2">
+			<div class="container">
+				<div class="personal-credit-row">
+					<div class="row align-items-center flex-row-reverse">
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="personal-credit-img">
+								<img src="images/customers-return.png" alt="customers-return" class="img-fluid">
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+							<div class="personal-credit-content">
+								<div class="small-section-title">
+									<h3>Credit <span>tbi</span> cu asigurare de viata</h3>
+								</div>
+								<div class="common-detail color-a5a5a5">
+									<p>Stim cu totii cat de important este sa ne simtim in siguranta si linistiti, atat pentru noi, cat si pentru cei dragi.</p>
+									<p>Daca ai un imprumut, vrem sa stii ca exista o modalitate de a te proteja in fata surprizelor vietii. Alege sa-ti asiguri creditul si partenerul nostru, <a href="#">Metropolitan Life</a>, iti va sta alaturi cu solutii care sa te ajute pe tine sau pe cei dragi in cazul anumitor evenimente neprevazute.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Personal Credit End -->
+
+		<!-- Benefits Start -->
+		<div class="tbi-benefits-wrp tbi-benefits-wrp1">
+			<div class="container">
+				<div class="tbi-benefits-main">
+					<div class="small-section-title">
+						<h2>Asigurarea atasata creditului acopera:</h2>
+					</div>
+					<div class="tbi-benefits-row">
+						<div class="row">
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-inner">
+									<div class="tbi-benefits-block">
+										<div class="tbi-benefits-icon">
+											<img src="images/Unlocked.svg" alt="Unlocked" class="img-fluid">
+										</div>
+										<div class="small-title">
+											<h3>Decesul din imbolnavire sau accident</h3>
+										</div>
+									</div>
+									<div class="detail">
+										<p>Asiguratorul va plati datoria in numele tau, astfel incat familia ta sa nu aiba grija ratelor: 100% din soldul ramas de rambursat al Imprumutului la data decesului din imbolnavire, respectiv, 200% din soldul ramas de rambursat al Imprumutului la data decesului in caz de accident</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-inner">
+									<div class="tbi-benefits-block">
+										<div class="tbi-benefits-icon">
+											<img src="images/Hospital.svg" alt="Hospital" class="img-fluid">
+										</div>
+										<div class="small-title">
+											<h3>Spitalizare din accident si imbolnavire</h3>
+										</div>
+									</div>
+									<div class="detail">
+										<p>In cazul persoanelor fizice autorizate, pensionatilor anticipat sau in cazul pensionarilor la limita de varsta, va fi achitata o rata lunara de credit/eveniment asigurat, cu conditia existentei a cel putin a 1 (unei) zile de spitalizare suplimentara, dupa trecerea perioadei de excludere; maxim 2 evenimente/an de asigurare</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-inner">
+									<div class="tbi-benefits-block">
+										<div class="tbi-benefits-icon">
+											<img src="images/Thumbs-Up.svg" alt="Thumbs-Up" class="img-fluid">
+										</div>
+										<div class="small-title">
+											<h3>Pierderea involuntara a locului de munca</h3>
+										</div>
+									</div>
+									<div class="detail">
+										<p>In cazul in care esti angajat cu contract de munca pe perioada nedeterminata si ai un pachet de asigurare care include si riscul de pierdere involuntara a locului de munca si intervine somajul, va fi achitata o rata lunara de credit pentru fiecare perioada dovedita de 30 de zile de somaj pentru maximum 12 luni, in conformitate cu graficul initial de rambursare (6 luni per eveniment/ 2 evenimente pe perioada asigurata)</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<div class="tbi-benefits-inner">
+									<div class="tbi-benefits-block">
+										<div class="tbi-benefits-icon">
+											<img src="images/Smiling-Face-With-Hearts.svg" alt="Smiling-Face-With-Hearts" class="img-fluid">
+										</div>
+										<div class="small-title">
+											<h3>Ce se intampla cu asigurarea ta daca rambursezi anticipat?</h3>
+										</div>
+									</div>
+									<div class="detail">
+										<p>In cazul in care iti rambursezi anticipat creditul tau tbi, poti beneficia in continuare de asigurarea de viata atasata creditului, iar tu devii beneficiarul direct al acesteia. Unul dintre beneficiile asigurarii de viata este faptul ca iti acopera soldul initial al creditului, iar in cazul in care se produce unul din riscurile pentru care esti asigurat, vei beneficia de despagubire conform sumei din graficul de credit initial.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Benefits End -->
+	
+	</div>
+
+	<div class="bg-fff">
+
+		<!-- Faq Start -->
+		<div class="faq-wrp mt-30">
+			<div class="container">
+				<div class="faq-inner">
+					<div class="small-section-title color-212934">
+						<h3>Conditii de finantare si documente necesare</h3>
+					</div>
+					<div class="faq-main">
+						<div class="accordion" id="accordionExample1">
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+										Conditii de finantare
+									</button>
+								</h2>
+								<div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<ul>
+												<li>vechime la actualul loc de munca: 3 luni neintrerupte (in functie de bonitatea clientului)</li>
+												<li>varsta aplicantilor: de la 21 ani (in functie de bonitatea clientului) pana la 75 ani (varsta maxima a aplicantului la data finalizarii contractului de credit)</li>
+												<li>venit minim lunar acceptat: 1.495 lei</li>
+												<li>pensia minima acceptata: 1.125 lei.</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+										Documente necesare
+									</button>
+								</h2>
+								<div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<ul>
+												<li>actul de identitate in original;</li>
+												<li>acord ANAF / ultimul talon de pensie in original</li>
+												<li>cerere credit de nevoi personale</li>
+												<li>acord prelucrare date cu caracter personal</li>
+												<li>acordul de consultare al Biroului de Credit</li>
+											</ul>
+											<p>*In situatii speciale,&nbsp;<strong>tbi</strong>&nbsp;bank&nbsp;isi rezerva dreptul de a cere si alte documente in afara celor specificate mai sus.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+										Exemplu reprezentativ
+									</button>
+								</h2>
+								<div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+									<div class="accordion-body">
+										<div class="common-detail">
+											<p>Aceasta simulare reprezinta un exemplu de calcul efectuat pentru un Credit de Nevoi Personale cu asigurare cu o rata a dobanzii de 27,9%, respectiv pentru un Credit de Nevoi Personale fara asigurare cu o rata a dobanzii de 29,9%. Mentionam ca rata dobanzii se particularizeaza in functie de profilul si istoricul tau de creditare, in urma analizarii cererii de credit potrivit politicii interne si reglementarilor legale in vigoare, in baza documentatiei furnizate si a nivelului de dobanda corespunzatoare conform profilului tau. In vederea obtinerii unui calcul personalizat, te invitam sa aplici online.</p>
+											<p><strong>Exemplu reprezentativ pentru un Credit de Nevoi Personale standard cu asigurare</strong> : Pentru un credit in valoare de 16.000 lei, pe o perioada de 48 luni, cu o dobanda anuala fixa de 27,9%, comision de analiză a dosarului de 340 de Lei, prima de asigurare de viata este de 2901.98 lei, rata lunară: 669,52 Lei, Suma totală de plată: 32.137,15 Lei, DAE: 33.17%</p>
+											<p><strong>Exemplu reprezentativ pentru un Credit de Nevoi Personale standard fara asigurare</strong>: Pentru un credit in valoare de 16.000 lei, pe o perioada de 48 luni, cu o dobanda anuala fixa de 29,9%, comision de analiză a dosarului de 340 de lei, rata lunară: 587,39 lei, Suma totală de plată: 28.194,62 lei, DAE: 36,08%.</p>
+											<p><strong>Exemplu reprezentativ pentru un Credit de Nevoi Personale Standard Online cu asigurare</strong>: Pentru un credit in valoare de 16.000 lei, pe o perioada de 48 luni, cu o dobanda anuala fixa de 27,90%, comision de analiză a dosarului de 0 de lei, prima de asigurare de viata este de 2.841,60 lei, rata lunară: 655,59 lei, suma totală de plată: 31.468,44 lei, DAE: 31,76%.</p>
+											<p><strong>Exemplu reprezentativ pentru un Credit de Nevoi Personale Standard Online fara asigurare: </strong>Pentru un credit in valoare de 16.000 lei, pe o perioada de 48 luni, cu o dobanda anuala fixa de 29,90%, comision de analiză a dosarului de 0 de lei, rata lunară: 575,17 lei, suma totală de plată: 27.607,95 lei, DAE: 34.36%.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Faq End -->
+
+		<!-- Regulations Start -->
+		<div class="regulations-wrp">
+			<div class="container">
+				<div class="regulations-main">
+					<div class="small-section-title color-212934">
+						<h3>Documente necesare</h3>
+					</div>
+					<div class="regulations-list">
+						<div class="row">
+							<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+								<a class="regulations-block" href="javascript:void(0);">
+									<img src="images/icn-download-pdf-4k.png" alt="pdf" class="img-fluid">
+									<span>Declaratie pe propria raspundere</span>
+								</a>
+							</div>
+							<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+								<a class="regulations-block" href="javascript:void(0);">
+									<img src="images/icn-download-pdf-4k.png" alt="pdf" class="img-fluid">
+									<span>Acord interogare ANAF </span>
+								</a>
+							</div>
+							<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+								<a class="regulations-block" href="javascript:void(0);">
+									<img src="images/icn-download-pdf-4k.png" alt="pdf" class="img-fluid">
+									<span>Adeverinta de venit tbi bank</span>
+								</a>
+							</div>
+							<div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+								<a class="regulations-block" href="javascript:void(0);">
+									<img src="images/icn-download-pdf-4k.png" alt="pdf" class="img-fluid">
+									<span>Regulamentul campaniei din unitati cu premii instant</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!-- Regulations End -->
+
+	</div>
+
+</div>
+<!-- content end -->
+
+
+<!-- footer start -->
+<footer class="footer">
+	<div class="footer-top">
+		<div class="container">
+			<div class="footer-main">
+				<div class="row">
+					<div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+						<div class="ftr-left">
+							<div class="row">
+								<div class="col-sm-6 col-md-3 col-lg-6 col-xl-6 col-xxl-6">
+									<div class="ftr-block">
+										<div class="ftr-title">
+											<h5>tbi bank</h5>
+										</div>
+										<ul>
+											<li><a href="#">Reglementari</a></li>
+											<li><a href="#">Actualizare date personale</a></li>
+											<li><a href="#">Cariere</a></li>
+											<li><a href="#">Webinar</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-3 col-lg-6 col-xl-6 col-xxl-6">
+									<div class="ftr-block">
+										<div class="ftr-title">
+											<h5>Legal</h5>
+										</div>
+										<ul>
+											<li><a href="#">Termeni si conditii</a></li>
+											<li><a href="#">Politica de confidentialitate si protectia datelor</a></li>
+											<li><a href="#">Politica de cookie-uri</a></li>
+											<li><a href="#">Securitate online</a></li>
+											<li><a href="#">Whistleblowing</a></li>
+											<li><a href="#">Documente</a></li>
+											<li><a href="#">Bancassurance</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-3 col-lg-6 col-xl-6 col-xxl-6">
+									<div class="ftr-block">
+										<div class="ftr-title">
+											<h5>Mai mult</h5>
+										</div>
+										<ul>
+											<li><a href="#">Promotii incheiate</a></li>
+											<li><a href="#">Modalitati de plata a ratei</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-3 col-lg-6 col-xl-6 col-xxl-6">
+									<div class="ftr-block">
+										<div class="ftr-title">
+											<h5>Contact</h5>
+										</div>
+										<ul>
+											<li><a href="#">Luni – Vineri <br> 08:00 – 17:00</a></li>
+											<li><a href="#">Sambata – Duminica Inchis</a></li>
+											<li><a href="0215298600">021 529 8600</a></li>
+											<li><a href="mailto:ccc@tbicallcenter.ro">ccc@tbicallcenter.ro</a></li>
+											<li><a href="#" class="text-decoration">Cauta o agentie</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+						<div class="ftr-right">
+							<div class="row">
+								<div class="col-sm-5 col-lg-5 col-xl-5 col-xxl-5">
+									<div class="ftr-title">
+										<h5>tbi asset management and servicing S.A. (fosta tbi leasing S.A.)</h5>
+									</div>
+									<ul>
+										<li><a href="#">tbi money</a></li>
+										<li><a href="#">Actualizare date personale</a></li>
+									</ul>
+								</div>
+								<div class="col-sm-7 col-lg-7 col-xl-7 col-xxl-7">
+									<div class="ftr-app">
+										<div class="ftr-flex">
+											<div class="ftr-title">
+												<h5>Descarca gratuit aplicatia tbi</h5>
+												<p>Transforma-ti cumparaturile in experiente fara griji</p>
+											</div>
+											<div class="ftr-phone">
+												<img src="images/new_footer_appscreen_Final.png" class="img-fluid" alt="">
+											</div>
+										</div>
+										<div class="download-app__links">
+											<div class="download-app__links-qrcode">
+												<img width="592" height="592" src="https://tbibank.ro/wp-content/uploads/2023/02/website.png" alt="" class="img-fluid">
+											</div>
+											<div class="download-app__links-items">
+												<div class="download-app__links-header">Scaneaza codul QR</div>
+												<div class="download-app__links-descr">sau descarca gratuit din:</div>
+												<div class="download-app__links-mob">
+													<a href="#" class="download-app__btn">
+														<div class="download-app__btn-icon">
+															<img width="20px" src="images/google_play_btn.svg" class="img-fluid"  alt="" >
+														</div>
+														<div>
+															<div class="download-app__btn-label">
+																<img width="45px" src="images/footer-google-play-label.svg" class="img-fluid" alt="" >
+															</div>
+															<div class="download-app__btn-name">
+																<img width="58px" src="images/footer-google-play-name.png" class="img-fluid" alt="" >
+															</div>
+														</div>
+													</a>
+													<a href="#" class="download-app__btn">
+														<div class="download-app__btn-icon">
+															<img width="17px" src="images/footer-app-store-icon.png" class="img-fluid" alt="" >
+														</div>
+														<div>
+															<div class="download-app__btn-label">
+																<img width="41px" src="images/footer-app-store-label.svg" class="img-fluid" alt="">
+															</div>
+															<div class="download-app__btn-name">
+																<img width="55px" src="images/footer-app-store-name.png" class="img-fluid" alt="" >
+															</div>
+														</div>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-last">
+		<div class="container">
+			<div class="footer-last-main">
+				<div class="footer-last-main-left">
+					<div class="footer-tbi-logo">
+						<a href="#">
+							<img src="images/footer-tbi-logo.svg" class="img-fluid" alt="footer-tbi-logo">
+						</a>
+					</div>
+					<div class="insolventa">
+						<a href="#">
+							<img src="images/insolventa-PICTOGRAMA-1.png" class="img-fluid" alt="insolventa-PICTOGRAMA">
+						</a>
+					</div>
+				</div>
+				<div class="footer-last-main-right">
+					<ul>
+						<li><a href="#"><img src="images/fb-small.svg" class="img-fluid" alt="icon"></a></li>
+						<li><a href="#"><img src="images/insta-small.svg" class="img-fluid" alt="icon"></a></li>
+						<li><a href="#"><img src="images/linked-square.svg" class="img-fluid" alt="icon"></a></li>
+					</ul>
+					<div class="detail">
+						<h6>2024 tbi bank</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- footer end -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.7.0.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Bootstrap Bundle with Popper -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- Slick Slider -->
+<script src="js/slick.min.js"></script>
+<!-- Match Height Js -->
+<script src="js/jquery.matchHeight-min.js"></script>
+<!-- Font Awesome -->
+<script src="js/all.min.js"></script>
+<!-- ofi -->
+<script src="js/ofi.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

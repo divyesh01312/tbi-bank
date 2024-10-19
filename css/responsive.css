@@ -1,0 +1,1063 @@
+/*////////////////////////////////////////////////////// Responsive CSS Structure //////////////////////////////////////////////////////*/
+@media (min-width: 1200px) and (max-width: 1920px){ 
+}
+
+@media (min-width: 1600px) {
+    .container {max-width: 1470px;}
+}
+
+@media (min-width: 1600px) and (max-width: 1699px){
+    /* installment-banner-section */
+    .installment-banner-section-2{background-size: 72% auto;}
+    /* installment-banner-section */
+}
+
+@media (min-width: 1500px) and (max-width: 1599px){
+    /* installment-banner-section */
+    .installment-banner-section-2{background-size: 76% auto; padding: 80px 0;}
+    /* installment-banner-section */
+}
+
+@media (min-width: 1400px) and (max-width: 1499px) {
+    /* Application Tbi Start */
+    .video-main .row { margin: 0 -46px; }
+    .video-main .row>* {padding: 0 46px;}
+    /* Application Tbi End */
+
+    /* installment-banner-section */
+    .installment-banner-section-2{background-size: 76% auto; padding: 80px 0;}
+    /* installment-banner-section */
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+    /* Common Style Start */
+    .banner-title { font-size: 40px; line-height: 46px; }
+    .section-title { font-size: 38px; line-height: 44px; }
+    .small-section-title { font-size: 34px; line-height: 40px; }
+    /* Common Style End */
+
+    /* installment-banner-section */
+    .installment-banner-section-2{background-size: 100% auto; padding: 80px 0;}
+    /* installment-banner-section */
+
+    /* Header Start */
+    .bottom-header .navbar-nav .nav-item {padding: 0 25px 0 0;}
+    /* Header End */
+
+    /* Home Page Start */
+    .banner-content .detail { margin: 0 0 28px; }
+    /* Home Page End */
+
+    /* Application Tbi Start */
+    .aplicatia-tbi-wrp {padding: 60px 0 30px;}
+
+    .faq-wrp { padding: 100px 0; }
+    
+    .regulations-main .small-section-title { margin: 0 0 40px; }
+    /* Application Tbi End */
+
+    /* Your Personal Credit Page Strat */
+    .tbi-benefits-wrp1 .tbi-benefits-inner { margin: 0 0 50px; }
+
+    .payment-methods-wrp { padding: 60px 0; }    
+    /* Your Personal Credit Page End */
+
+    /* Credit Tbi Duo Page Start */
+    .recommended-products-block .small-section-title {font-size: 34px; line-height: 40px;}
+    .recommended-products-block .common-detail { margin: 0 0 30px; }
+    .recommended-products-block {padding: 48px 48px 230px;}
+    /* Credit Tbi Duo Page End */
+
+    /* Regulations Start */
+    .regulations-block span{padding-right: 25px;}
+    /* Regulations End */
+
+    /* Footer */
+    .ftr-app .ftr-title h5 { margin: 0 0 9px 0; }
+    .ftr-title h5 { font-size: 18px; line-height: 20px; }
+    /* .footer { padding: 130px 0 0; } */
+    .footer-main { padding: 0 0 50px 0; }
+    .ftr-phone { margin: -60px 0 0 0; }
+    .depozitul-online-footer{padding: 0 0 0;}
+    /* Footer */
+
+    /* contact section */
+    .contact-section .row { margin: 0 -15px; }
+    .contact-section .row > *{ padding: 0 15px; }
+    /* contact section */
+
+    /* personal-credit-wrp3 */
+    .personal-credit-wrp3 .row{align-items: stretch !important;}
+    .personal-credit-wrp3 .personal-credit-img{width: 100%; height: 100%;}
+    .personal-credit-wrp3 .personal-credit-img img{width: 100%; height: 100%; object-fit: cover;}
+    /* personal-credit-wrp3 */
+
+    /* filter part */
+    .filter-part .dropdown .dropdown-label span{width: 130px;}
+    /* filter part */
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+    /* Common Style Start */
+    .banner-title { font-size: 40px; line-height: 46px; }
+    .section-title { font-size: 38px; line-height: 44px; }
+    .small-section-title { font-size: 34px; line-height: 40px; }
+    /* Common Style End */
+
+    /* installment-banner-section */
+    .installment-banner-section-2{background-size: 100% auto; padding: 80px 0;}
+    .installment-banner-section-2 .banner-title{font-size: 46px;}
+    .installment-banner-section-2 .installment-banner-detail .installment-banner-paragraph{font-size: 16px; line-height: 26px; max-width: 435px;}
+    .installment-banner-section-2 .credit-flex-part span{font-size: 32px;}
+    .installment-banner-section-2 .credit-flex-part{margin-top: 70px;}
+    /* installment-banner-section */
+
+    /* Header Start */
+    .bottom-header .navbar-nav .nav-item {padding: 0 25px 0 0;}
+    /* Header End */
+
+    /* Home Page Start */
+    .banner-content .detail { margin: 0 0 28px; }
+    /* Home Page End */
+
+    /* Application Tbi Start */
+    .aplicatia-tbi-wrp {padding: 60px 0 30px;}
+
+    .video-main .row { margin: 0 -35px; }
+    .video-main .row>* { padding: 0 35px; }
+
+    .faq-wrp { padding: 100px 0; }
+
+    .regulations-main .small-section-title { margin: 0 0 40px; }
+    /* Application Tbi End */
+
+    /* Your Personal Credit Page Strat */
+    .tbi-benefits-wrp1 .tbi-benefits-inner { margin: 0 0 50px; }
+
+    .payment-methods-wrp { padding: 60px 0; }    
+    /* Your Personal Credit Page End */
+
+    /* Credit Tbi Duo Page Start */
+    .recommended-products-block .small-section-title {font-size: 34px; line-height: 40px;}
+    .recommended-products-block .common-detail { margin: 0 0 30px; }
+    .recommended-products-block {padding: 48px 48px 230px;}
+    /* Credit Tbi Duo Page End */
+
+    /* Regulations Start */
+    .regulations-block span{padding-right: 25px;}
+    /* Regulations End */
+    
+    /* Footer */
+    .ftr-app .ftr-title h5 { margin: 0 0 9px 0; }
+    .ftr-title h5 { font-size: 18px; line-height: 20px; margin: 0 0 20px;}
+    /* .footer { padding: 130px 0 0; } */
+    .footer-main { padding: 0 0 50px 0; }
+    .ftr-phone { margin: -60px 0 0 0; }
+    .depozitul-online-footer{padding: 0 0 0;}
+    /* Footer */
+
+    /* interest section */
+    .interest-section .interest-list ul{flex-wrap: wrap;}
+    .interest-section .interest-list ul li{margin: 0 30px 20px 0;}
+    /* interest section */
+
+    /* contact section */
+    .contact-section .row { margin: 0 -15px; }
+    .contact-section .row > *{ padding: 0 15px; }
+    /* contact section */
+
+    /* personal-credit-wrp3 */
+    .personal-credit-wrp3 .row{align-items: stretch !important;}
+    .personal-credit-wrp3 .personal-credit-img{width: 100%; height: 100%;}
+    .personal-credit-wrp3 .personal-credit-img img{width: 100%; height: 100%; object-fit: cover;}
+    /* personal-credit-wrp3 */
+
+    /* filter part */
+    .filter-part .dropdown .dropdown-label span{width: 130px;}
+    /* filter part */
+
+}
+
+@media (min-width: 1200px) {
+    /* Header Start */
+    .bottom-header .navbar-nav .nav-item:hover .dropdown-menu { opacity: 1; pointer-events: visible; }
+    /* Header End */
+}
+
+@media (max-width: 1199px) {
+    /* Header Start */
+    .header .container {max-width: 100%; padding: 0 20px;}
+    .bottom-header {padding: 10px 0;}
+    .header .navbar-toggler {padding: 0; border: none; box-shadow: none; position: relative; z-index: 9; } 
+    .header .navbar-toggler span { background-color: #0d0d0d; display: block; width: 26px; height: 2px; margin-bottom: 6px; position: relative; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; -ms-transition: 0.5s; -o-transition: 0.5s; }
+    .header .navbar-toggler span:last-child {margin-bottom: 0;}
+    .header .navbar-toggler.open span:first-child { top: 8px; transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); }
+    .header .navbar-toggler.open span:nth-child(2) {opacity: 0;}
+    .header .navbar-toggler.open span:last-child { top: -8px; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); }
+    .bottom-header .nav-tabs { border: none; padding: 4px 3px; background-color: #f5f5f5; border-radius: 16px; -webkit-border-radius: 16px; -moz-border-radius: 16px; -ms-border-radius: 16px; -o-border-radius: 16px; }
+    .bottom-header .nav-tabs .nav-item {max-width: 100%; width: 25%; text-align: center; padding: 0 2px; }
+    .bottom-header .nav-tabs .nav-link { font-size: 13px; line-height: 18px; padding: 5px; border: none; height: 100%; display: flex; align-items: center; justify-content: center; color: #848484; border-radius: 14px; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; }
+    .bottom-header .navbar-nav .nav-item .nav-link {line-height: 20px;}
+    .bottom-header .nav-tabs .nav-link.active { color: #ff6600; -moz-box-shadow: 0 12px 20px rgba(87,92,106,.1); -webkit-box-shadow: 0 12px 20px rgba(87,92,106,.1); box-shadow: 0 12px 20px rgba(87,92,106,.1);}
+    .header .navbar-collapse { position: fixed; right: -100%; top: 0; bottom: 0; background-color: #fff; max-width: 100%; width: 100%; height: 100%; overflow: auto; padding: 85px 20px; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; -ms-transition: 0.5s; -o-transition: 0.5s; }
+    .header .navbar-collapse::after { content: ""; background-color: #fff; position: fixed; right: -100%; top: 0; max-width: 100%; width: 100%; height: 80px; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; -ms-transition: 0.5s; -o-transition: 0.5s; }
+    .header .navbar-collapse.show {right: 0; height: auto;}
+    .header .navbar-collapse.show::after {right: 0;}
+    .bottom-header .navbar-nav .nav-item {font-size: 20px; line-height: 24px; padding: 16px 0; justify-content: space-between; border-bottom: 1px solid #f5f5f5;}
+    .bottom-header .nav-item .dropdown-menu { position: fixed; left: auto; right: -100%; opacity: 1; top: 0; bottom: 0; z-index: 99; background-color: #fff; max-width: 100%; width: 100%; overflow: auto; padding: 85px 20px; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; -ms-transition: 0.5s; -o-transition: 0.5s; }
+    .bottom-header .nav-item .dropdown-menu.show {right: 0;}
+    .bottom-header .navbar-nav .nav-item:hover .down-arrow { transform: none; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; }
+    .bottom-header .tab-content {padding: 20px 0 0;}
+    .bottom-header .navbar-brand {position: relative; z-index: 9;}
+    .top-header { position: absolute; right: 50px; background-color: transparent; padding: 0; top: 50%; z-index: 9; transform: translate(0, -50%); -webkit-transform: translate(0, -50%); -moz-transform: translate(0, -50%); -ms-transform: translate(0, -50%); -o-transform: translate(0, -50%); }
+    .language-dropdown { padding: 7px 16px; background-color: #e0e0e0; border-radius: 14px; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; }
+    .language-dropdown .btn {color: #0d0d0d;}
+    .language-dropdown .dropdown-menu {background-color: #f9f9f9; top: 30px !important; left: -30px !important;}
+    .bottom-header .navbar-nav .nav-item .down-arrow {font-size: 20px; line-height: 20px;}
+    .bottom-header .nav-item .dropdown-menu .back-btn {font-size: 20px; line-height: 24px;}
+    .bottom-header .nav-item .dropdown-menu .back-btn a {font-weight: 600;}
+    .bottom-header .nav-item .dropdown-menu .back-btn span {margin: 0 8px 0 0;}
+    .bottom-header .nav-item .dropdown-menu li {padding: 16px 0; border-bottom: 1px solid #f5f5f5;}
+    .bottom-header .nav-item .dropdown-menu li:last-child {padding-bottom: 16px;} 
+    .nav-up .top-header { margin: 0; }
+    /* Header End */
+
+    .content { padding: 64px 0 0; }
+
+    /* Regulations Start */
+    .regulations-block span {padding-right: 25px;}
+    /* Regulations End */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Common Style Start */
+    .banner-title { font-size: 40px; line-height: 46px; }
+    .section-title { font-size: 38px; line-height: 44px; }
+    .small-section-title { font-size: 34px; line-height: 40px; }
+    .btn {padding: 14px 25px;}
+    .font-28 { font-size: 24px; line-height: 32px; }
+    /* Common Style End */
+
+    
+    /* installment-banner-section */
+    .installment-banner-detail .installment-banner-paragraph{max-width: 415px;}
+    .installment-banner-section-2{background-size: 100% auto; padding: 60px 0 !important;}
+    .installment-banner-section-2 .banner-title{font-size: 34px;}
+    .installment-banner-section-2 .installment-banner-detail .installment-banner-paragraph{font-size: 16px; line-height: 26px; max-width: 435px;}
+    .installment-banner-section-2 .credit-flex-part span{font-size: 32px;}
+    .installment-banner-section-2 .credit-flex-part{margin-top: 40px;}
+    /* installment-banner-section */
+
+    /* Home Page Start */
+    .banner-content .detail { margin: 0 0 28px; }
+    .banner-slider .banner-item {padding: 100px 0;}
+    .banner-content .banner-title { margin: 0 0 35px; }
+
+    .tbi-application-content { padding: 80px 10px 80px 90px; }
+    .tbi-application-wrp { padding: 140px 0 50px; }
+    
+    .personal-credit-wrp { padding: 70px 0 50px; }
+    .personal-credit-content .section-title { margin: 0 0 30px; }
+    .personal-credit-content .common-detail { margin: 0 0 30px; }
+    .personal-credit-row { margin: 0 0 50px; }
+    .personal-credit-row .row { margin: 0 -22px; }
+    .personal-credit-row .row>* {padding: 0 22px;}
+    /* Home Page End */
+
+    /* Application Tbi Start */
+    .aplicatia-tbi-wrp {padding: 50px 0 30px;}
+
+    .tbi-benefits-main .small-section-title { margin: 0 0 50px; }
+    .tbi-benefits-wrp { padding: 40px 0 20px; }
+
+    .video-wrp { padding: 40px 0; }
+    .video-main .row { margin: 0 -22px; }
+    .video-main .row>* { padding: 0 22px; }
+
+    .pay-smartly-wrp { padding: 40px 0; }
+
+    .faq-wrp { padding: 100px 0; }
+    
+    .regulations-main .small-section-title { margin: 0 0 40px; }
+    /* Application Tbi End */
+
+    /* Your Personal Credit Page Strat */
+    .tbi-benefits-wrp1 .tbi-benefits-inner { margin: 0 0 40px; }
+    .tbi-benefits-wrp2 .row{ margin: 0 -18px; }
+    .tbi-benefits-wrp2 .row > *{ padding: 0 18px; }
+
+    .get-personal-loan-block {padding: 24px;}
+    .get-personal-loan-block .small-section-title { font-size: 28px; line-height: 32px; }
+    .get-personal-loan-wrp { padding: 40px 0; }
+
+    .payment-methods-wrp { padding: 40px 0; }    
+
+    .payment-methods-title { padding: 0 0 70px; }
+
+    .graph-wrp { padding: 64px 0 80px; }
+    /* Your Personal Credit Page End */
+
+    /* Credit Tbi Duo Page Start */
+    .credit-benefits-icon {width: 60px; height: 60px; flex: 0 0 60px; margin: 0 25px 0 0;}
+    .credit-benefits-wrp { padding: 50px 0; }
+    .credit-benefits-main .small-section-title { margin: 0 0 50px; }
+
+    .payment-installment-item {margin: 0 15px; padding: 30px;}
+    .payment-installment-slider {margin: 0 -15px;}
+    .payment-installment-slider .slick-arrow {width: 48px; height: 48px; }
+    .payment-installment-slider .slick-next { right: -6px; }
+    .payment-installment-slider .slick-prev {left: -6px;}
+    .payment-installment-title {margin: 0 0 50px;}
+    .payment-installment-wrp { padding: 50px 0 90px; }
+
+    .conditions-main .small-section-title { margin: 0 0 10px; } 
+    .conditions-wrp { padding: 50px 0; }
+    .conditions-block h3 {margin: 0 0 20px;}
+
+    .required-documents-wrp { padding: 50px 0; }
+    .required-documents-main .small-section-title { margin: 0 0 50px; }
+
+    .recommended-products-block .small-section-title {font-size: 34px; line-height: 40px;}
+    .recommended-products-block .common-detail { margin: 0 0 30px; }
+    .recommended-products-block {padding: 42px 42px 200px;}
+    .recommended-products-wrp { padding: 50px 0; }
+    
+    .latest-news-wrp .recommended-products-block {padding: 42px;}
+    .latest-news-wrp .recommended-products-block .product-tags { padding: 80px 0 0; }
+
+    .contact-details-wrp { padding: 50px 0; }
+    .contact-details-main {padding: 40px 40px 40px 60px;}
+
+    .tbi-benefits-wrp.tbi-benefits-wrp2 {padding: 50px 0 30px;}
+    /* Credit Tbi Duo Page End */
+
+    /* Footer */
+    .ftr-app .ftr-title h5 { margin: 0 0 9px 0; }
+    .ftr-title h5 { font-size: 18px; line-height: 20px; margin: 0 0 20px;}
+    /* .footer { padding: 100px 0 0; } */
+    .footer-main { padding: 0 0 40px 0; }
+    .ftr-phone { margin: -60px 0 0 0; }
+    .download-app__links {padding: 15px;}
+    .download-app__links-qrcode { border-radius: 22px; width: 102px; height: 102px; margin: 0 11px 0 0; min-width: 102px;}
+    .download-app__links-header { font-size: 17px; line-height: 20px; }
+    .download-app__links-qrcode>img { height: 90px; width: 90px; }
+    .download-app__links-descr { font-size: 15px; line-height: 17px; margin: 0 0 13px; }
+    .download-app__btn:first-child { margin: 0 5px 0 0; }
+    .footer ul li { margin: 0 0 10px; }
+    .depozitul-online-footer{padding: 0 0 0;}
+    /* Footer */
+
+    /* interest section */
+    .interest-section .interest-list ul{flex-wrap: wrap;}
+    .interest-section .interest-list ul li{margin: 0 30px 20px 0;}
+    /* interest section */
+
+    /* contact section */
+    .contact-section .row { margin: 0 -15px; }
+    .contact-section .row > *{ padding: 0 15px; }
+    .contact-section .contact-content{padding: 25px !important;}
+    .contact-section .small-title{font-size: 20px; line-height: 24px;}
+    .contact-section .tbi-benefits-icon{margin: 0 10px 0 0;}
+    .contact-section .contact-info > *{font-size: 15px; line-height: 25px;}
+    /* contact section */
+
+    /* Regulations Start */
+    .regulation-wrp .regulations-block::after{right: 20px;}
+    /* Regulations Start */
+
+    /* installment section  */
+    .installment-banner-section{padding: 200px 0;}
+    /* installment section  */
+
+    /* personal-credit-wrp3 */
+    .personal-credit-wrp3 .row{align-items: stretch !important;}
+    .personal-credit-wrp3 .personal-credit-img{width: 100%; height: 100%;}
+    .personal-credit-wrp3 .personal-credit-img img{width: 100%; height: 100%; object-fit: cover;}
+    /* personal-credit-wrp3 */
+
+    /* partner section */
+    .partner-row .row { margin: 0 -12px; }
+    .partner-row .row > *{ padding: 0 12px; }
+    /* partner section */
+
+    /* filter part */
+    .filter-part .dropdown .dropdown-label span{width: 100px;}
+    /* filter part */
+
+    /* steps section  */
+    .steps-part ul li br{display: none;}
+    .steps-part ul li span{margin-right: 20px;}
+    .steps-section .apply-now-button .btn{padding: 12px 26px;}
+    /* steps section  */
+
+    /* question section */
+    .question-content .cartoon-image{left: 30px;}
+    .question-detail .common-detail{max-width: 450px;}
+    .question-content{padding: 50px 0;}
+    .question-section{margin: 60px 0;}
+    /* question section */
+
+    /* credit-flex-part */
+    /* .installment-banner-detail .installment-banner-paragraph{max-width: 415px;} */
+    /* credit-flex-part */
+
+}
+
+@media (max-width: 991px) {
+    /* filter part Start */
+    .filter-icon { width: 62px; height: 62px; display: flex; align-items: center; justify-content: center; border: 1px solid #cecece; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; }
+    .filter-main {z-index: 999;}
+    .filter-main, .filter-list .dropdown-menu1 { position: fixed; right: -100%; top: 0; bottom: 0; max-width: 100%; width: 100%; height: 100%; overflow: auto; padding: 30px 20px; background-color: #fff; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; -ms-transition: 0.5s; -o-transition: 0.5s; }
+    .filter-list .dropdown-menu1 {display: flex; flex-direction: column; align-items: flex-start; z-index: 9;}
+    .filter-main.show {right: 0; height: auto;}
+    .filter-list .dropdown-menu1.show {right: 0; height: auto;}
+    .filter-close-icon {position: absolute; right: 20px; top: 20px;}
+    .filter-show-part .small-section-title {font-size: 34px; line-height: 38px; margin: 0 0 20px;}
+    .filter-list ul {padding: 0; margin: 0;}
+    .filter-list ul li {list-style-type: none; font-weight: 700; border-bottom: 1px solid #f5f5f5; padding: 20px 0;}
+    .filter-list ul li a {position: relative; display: flex; align-items: center; justify-content: space-between;}
+    .filter-list ul li > a::after { content: "\f105"; font-family: "Font Awesome 5 Free"; font-weight: 600; font-size: 18px; line-height: 18px; color: #a5a5ab; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; -ms-transition: 0.5s; -o-transition: 0.5s; }
+    .filter-list ul li a:hover::after {color: #ff6600;}
+    .dropdown-menu1 .back-arrow {position: relative; font-size: 20px; line-height: 24px; font-weight: 700; color: #212934; margin: 0 0 30px;}
+    .dropdown-menu1 .back-arrow::before { content: "\f060"; font-family: "Font Awesome 5 Free"; margin: 0 10px 0 0; }
+    .dropdown-menu1 .back-arrow:hover {color: #ff6600;}
+    .radio-custom:checked+.radio-custom-label:after {left: 5.3px;}
+    /* filter part End */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Common Style Start */
+    .banner-title { font-size: 35px; line-height: 40px; }
+    .section-title { font-size: 32px; line-height: 38px; }
+    .btn {padding: 14px 25px;}
+    .small-title { font-size: 20px; line-height: 26px; }
+    .small-section-title { font-size: 28px; line-height: 34px; }
+    .common-detail { font-size: 16px; line-height: 26px; }
+    body {font-size: 16px; line-height: 22px;}
+    /* Common Style End */
+
+    /* Home Page Start */
+    .banner-content .detail { margin: 0 0 22px; }
+    .banner-slider .banner-item {padding: 100px 0;}
+    .banner-content .banner-title { margin: 0 0 35px; }
+
+    .tbi-application-content { padding: 80px 10px 60px 60px; }
+    .tbi-application-content .common-list { margin: 0 0 25px; }
+    .tbi-application-main .row {align-items: flex-end;}
+    .tbi-application-img {margin: 0 80px 0 0;}
+    .tbi-bank-label {left: 60px; padding: 11px 22px 11px;}
+    .tbi-application-content .section-title { margin: 0 0 30px; }
+    .tbi-application-wrp { padding: 90px 0 40px; }
+    .tbi-benefits-wrp2 .row{ margin: 0 -18px; }
+    .tbi-benefits-wrp2 .row > *{ padding: 0 18px; }
+    
+    .personal-credit-wrp { padding: 60px 0 40px; }
+    .personal-credit-content .section-title { margin: 0 0 25px; }
+    .personal-credit-content .common-detail { margin: 0 0 25px; }
+    .personal-credit-row { margin: 0 0 50px; }
+    .personal-credit-row .row>* { padding: 0 20px; }
+    .personal-credit-row .row {margin: 0 -20px;}
+    /* Home Page End */
+
+    /* Application Tbi Start */
+    .aplicatia-tbi-wrp {padding: 50px 0 30px;}
+    .tbi-benefits-block { margin: 0 0 40px; }
+
+    .discover-categories-main .small-section-title { margin: 0 0 50px; }
+    .discover-categories-wrp { padding: 30px 0 40px; }
+
+    .tbi-benefits-main .small-section-title { margin: 0 0 40px; }
+    .tbi-benefits-wrp { padding: 40px 0 30px; }
+
+    .video-wrp { padding: 40px 0; }
+    .video-main .row { margin: 0 -22px; }
+    .video-main .row>* { padding: 0 22px; }
+    
+    .pay-smartly-wrp { padding: 40px 0; }
+
+    .faq-wrp { padding: 60px 0; }
+    .faq-main .accordion-button { font-size: 20px; line-height: 32px; }
+    .faq-main .accordion-item {padding: 25px 0;}
+    
+    .regulations-main .small-section-title { margin: 0 0 40px; }
+
+    .modal-video .modal-content {margin: 0 30px;}
+    /* Application Tbi End */
+
+    /* Your Personal Credit Page Strat */
+    .personal-credit-bnr-wrp { padding: 50px 0 30px; }
+    .personal-credit-bnr-right iframe {margin-right: auto; height: 750px;}
+
+    .tbi-benefits-wrp1 .tbi-benefits-inner { margin: 0 0 40px; }
+
+    .get-personal-loan-block {padding: 20px;}
+    .get-personal-loan-block .small-section-title { font-size: 22px; line-height: 26px; }
+    .get-personal-loan-wrp { padding: 30px 0; }
+
+    .payment-methods-wrp { padding: 40px 0; }   
+    .payment-methods-wrp > .small-section-title {margin: 0 0 40px;} 
+
+    .payment-methods-title { padding: 0 0 70px; }
+
+    .online-loan-main > .small-section-title { margin: 0 0 60px; }
+    .online-loan-wrp { padding: 50px 0 40px; }
+
+    .graph-wrp { padding: 50px 0 60px; }
+    .graph-title { margin: 0 0 50px; }
+    .graph-details { max-width: 310px; }
+    /* Your Personal Credit Page End */
+
+    /* Credit Tbi Duo Page Start */
+    .conditions-main .small-section-title { margin: 0 0 10px; } 
+    .conditions-wrp { padding: 40px 0; }
+    .conditions-block h3 {font-size: 24px; line-height: 32px; margin: 0 0 20px;}
+    .conditions-section .conditions-block { padding: 25px 0; }
+
+    .credit-benefits-icon { width: 60px; height: 60px; flex: 0 0 60px; margin: 0 25px 0 0; padding: 12px; }
+    .credit-benefits-wrp { padding: 40px 0; }
+    .credit-benefits-main .small-section-title { margin: 0 0 40px; }
+    .credit-benefits-block {margin: 0 0 40px;}
+    .commen-detail-span{font-size: 16px}
+
+    .payment-installment-item {margin: 0 15px; padding: 30px;}
+    .payment-installment-slider {margin: 0 -15px;}
+    .payment-installment-slider .slick-arrow {width: 48px; height: 48px; }
+    .payment-installment-slider .slick-next { right: -6px; }
+    .payment-installment-slider .slick-prev {left: -6px;}
+    .payment-installment-title {margin: 0 0 40px;}
+    .payment-installment-wrp { padding: 40px 0 80px; }
+    .payment-installment-slider .slick-dots { margin: 30px 0 0; }
+
+    .required-documents-wrp { padding: 40px 0; }
+    .required-documents-main .small-section-title { margin: 0 0 40px; }
+
+    .recommended-products-block .small-section-title {font-size: 28px; line-height: 34px;}
+    .recommended-products-block .common-detail { margin: 0 0 30px; }
+    .recommended-products-block {padding: 35px 35px 150px; margin: 0 0 30px;}
+    .recommended-products-wrp { padding: 40px 0 10px; }
+    .recommended-products-section .row {margin: 0 -18px;}
+    .recommended-products-section .row>* { padding: 0 18px; }
+    
+    .latest-news-wrp .recommended-products-block {padding: 30px;}
+    .latest-news-wrp .recommended-products-block .product-tags { padding: 60px 0 0; }
+
+    .contact-details-wrp { padding: 40px 0; }
+    .contact-details-main {padding: 40px 40px 40px 40px;}
+    .contact-details-block .contact-details-inner:nth-last-child(2) { padding: 20px 0 0; }
+
+    .tbi-benefits-wrp.tbi-benefits-wrp2 {padding: 50px 0 30px;}
+    /* Credit Tbi Duo Page End */
+
+    /* Tbi Quattro Page Start */
+    .partner-detail .partner-image {height: auto;}
+    .partner-section { padding: 40px 0; }
+    .filter-part { margin-top: 40px; }
+    .partner-row { margin-top: 40px; }
+    .partner-detail { height: calc(100% - 40px); margin-bottom: 40px; }
+    /* Tbi Quattro Page End */
+
+    /* Footer */
+    .ftr-app .ftr-title h5 { margin: 0 0 9px 0; }
+    .ftr-title h5 { font-size: 18px; line-height: 20px; margin: 0 0 20px;}
+    /* .footer { padding: 100px 0 0; } */
+    .footer-main { padding: 0 0 40px 0; }
+    .ftr-phone { margin: -60px 0 0 0; }
+    .download-app__links {padding: 15px;}
+    .download-app__links-qrcode { border-radius: 22px; width: 102px; height: 102px; margin: 0 11px 0 0; min-width: 102px;}
+    .download-app__links-header { font-size: 17px; line-height: 20px; }
+    .download-app__links-qrcode>img { height: 90px; width: 90px; }
+    .download-app__links-descr { font-size: 15px; line-height: 17px; margin: 0 0 13px; }
+    .download-app__btn:first-child { margin: 0 5px 0 0; }
+    .footer ul li { margin: 0 0 10px; }
+    .ftr-right {padding: 20px 0 0 0;}
+    .depozitul-online-footer{padding: 0 0 0;}
+    /* Footer */
+
+    /* online section */
+    .online-section .banner-title{font-size: 36px; line-height: 40px;}
+    .online-section .common-list-title *{font-size: 16px; line-height: 25px;}
+    .online-section .tab-part ul li{margin: 0 3px;}
+    .online-section .tab-part ul li a{padding: 4px 12px;}
+    /* online section */
+
+    /* Interest section */
+    .interest-section .banner-title{font-size: 40px;}
+    .interest-section .interest-list{margin-top: 40px;}
+    .interest-section .interest-list ul{flex-wrap: wrap;}
+    .interest-section .interest-list ul li{margin: 0 20px 20px 0;}
+    .interest-section .disclaimer-part{margin-top: 80px;}
+    .disclaimer-info{margin-top: 30px;}
+    /* Interest section */
+
+    /* contact section */
+    .contact-section .row { margin: 0 -8px; }
+    .contact-section .row > *{ padding: 0 8px; }
+    .contact-section .contact-content{padding: 25px 20px 10px !important;}
+    .contact-section .small-title{font-size: 18px; line-height: 22px;}
+    .contact-section .tbi-benefits-icon{margin: 0 6px 0 0;}
+    .contact-section .contact-info > *{font-size: 14px; line-height: 24px; margin-bottom: 20px;}
+    .contact-section .tbi-benefits-block{margin: 0 0 25px;}
+    /* contact section */
+
+    /* Regulations Start */
+    .regulation-wrp .regulations-block::after{right: 20px;}
+    .regulation-wrp .regulations-block{padding: 20px;}
+    .regulation-wrp .regulations-block span{padding-right: 20px;}
+    /* Regulations Start */
+
+    /* deposit section */
+    .deposit-section .deposit-info{margin-top: 30px;}
+    .deposit-section .deposit-info *{margin-bottom: 20px;}
+    .magazine-deposit-section .deposit-info *{margin-bottom: 0;}
+    /* deposit section */
+
+    /* simple deposit section */
+    .simple-deposit-section .banner-title{font-size: 40px; line-height: 50px;}
+    .simple-deposit-section .simple-deposite-info{margin-top: 20px;}
+    .apply-now-button{margin-top: 30px;}
+    .simple-deposit-section .simple-deposite-info *{font-size: 16px; line-height: 26px;}
+    /* simple deposit section */
+
+    /* form section  */
+    .form-title{font-size: 46px; line-height: 60px;}
+    .form-part{margin-top: 50px;}
+    .form .form-group{margin-bottom: 40px;}
+    /* form section  */
+
+    /* installment section  */
+    /* .installment-banner-section{padding: 130px 0;}
+    .installment-banner-detail{max-width: 380px;} */
+    /* installment section  */
+
+    /* personal-credit-wrp3 */
+    .personal-credit-wrp3 .row{align-items: stretch !important;}
+    .personal-credit-wrp3 .personal-credit-img{width: 100%; height: 100%;}
+    .personal-credit-wrp3 .personal-credit-img img{width: 100%; height: 100%; object-fit: cover; object-position: center;}
+    /* personal-credit-wrp3 */
+
+    /* partner section */
+    .partner-row .row { margin: 0 -12px; }
+    .partner-row .row > *{ padding: 0 12px; }
+    /* partner section */
+
+    /* installment-banner-section */
+    .installment-banner-section{padding: 130px 0;}
+    .installment-banner-detail{max-width: 380px;}
+    .installment-banner-detail .installment-banner-paragraph{max-width: 296px;}
+    .installment-banner-section-2{background-size: cover; padding: 50px 0 !important; background-position: center;}
+    .installment-banner-section-2 .banner-title{font-size: 30px;}
+    .installment-banner-section-2 .installment-banner-detail .installment-banner-paragraph{font-size: 16px; line-height: 26px; max-width: 435px;}
+    .installment-banner-section-2 .credit-flex-part span{font-size: 24px; line-height: 32px;}
+    .installment-banner-section-2 .credit-flex-part .small-span{font-size: 20px;}
+    .installment-banner-section-2 .credit-flex-part{margin-top: 40px;}
+    /* installment-banner-section */
+
+     /* steps section  */
+     .steps-part ul li br{display: none;}
+     .steps-part ul li span{margin-right: 20px; max-width: 60px; height: 60px; font-size: 30px; line-height: 44px;}
+     .steps-part ul li::before{left: 29px;}
+     .steps-part ul li{font-size: 16px; line-height: 22px; margin-bottom: 30px;}
+     .steps-row { margin-top: 50px; }
+     .steps-section .apply-now-button .btn{padding: 12px 26px;}
+     /* steps section  */
+
+     /* question section */
+    .question-content .cartoon-image{left: 30px; max-width: 140px;}
+    .question-detail .common-detail{max-width: 300px;}
+    .question-content{padding: 30px 0;}
+    .question-section{margin: 60px 0;}
+    /* question section */
+}
+
+@media (max-width: 767px) {
+    .container {padding: 0 20px;}
+
+    /* Common Style Start */
+    body {font-size: 14px; line-height: 24px;}
+    .banner-title { font-size: 32px; line-height: 38px; }
+    .section-title { font-size: 30px; line-height: 36px; }
+    .btn { font-size: 16px; line-height: 22px; padding: 14px 25px;}
+    .common-list li {padding: 0 0 0 25px;}
+    .common-list li::before {top: 5px; font-size: 16px; line-height: 16px;}
+    .small-title { font-size: 18px; line-height: 26px; }
+    .small-section-title { font-size: 24px; line-height: 32px; }
+    .common-detail {font-size: 14px; line-height: 24px;}
+    .margin-bottom-100{margin-bottom: 50px;}
+    /* Common Style End */
+
+    /* Home Page Start */
+    .banner-content .detail { margin: 0 0 22px; }
+    .banner-slider .banner-item {padding: 100px 0;}
+    .banner-content .banner-title { margin: 0 0 35px; }
+
+    .tbi-application-content { padding: 80px 10px 40px 30px; }
+    .tbi-application-content .common-list { margin: 0 0 15px; }
+    .tbi-application-main .row {align-items: flex-end;}
+    .tbi-application-img {margin: 0 80px 0 0;}
+    .tbi-bank-label { font-size: 16px; line-height: 22px; left: 30px; padding: 11px 22px 11px;}
+    .tbi-application-content .section-title { margin: 0 0 25px; }
+    .tbi-application-wrp { padding: 60px 0 30px; }
+
+    .personal-credit-row .row { margin: 0 -20px; }
+    .personal-credit-row .row>* {padding: 0 20px;}
+    .personal-credit-img {margin: 0 0 30px;}
+    .personal-credit-content .section-title { margin: 0 0 25px; }
+    .personal-credit-row { margin: 0 0 50px; }
+    .personal-credit-content .common-detail { margin: 0 0 30px; }
+    .personal-credit-content .common-list { margin: 0 0 30px; }
+    .personal-credit-wrp { padding: 50px 0 30px; }
+    /* Home Page End */
+
+    /* Application Tbi Start */
+    .aplicatia-tbi-wrp {padding: 50px 0 30px;}
+    /* .tbi-benefits-main .section-title { margin: 0 0 50px; } */
+    /* .discover-categories-main .section-title { margin: 0 0 40px; } */
+    .aplicatia-tbi-content .banner-title { margin: 0 0 30px; }
+    .aplicatia-tbi-content .common-detail {margin: 0 0 30px;}
+    .aplicatia-bnr-img {margin: 10px 0 0;}
+    
+    .tbi-benefits-block { margin: 0 0 30px; }
+    .tbi-benefits-icon { width: 32px; height: 32px;  margin: 0 10px 0 0;}
+    .tbi-benefits-wrp { padding: 30px 0 20px; }
+    .tbi-benefits-main .small-section-title { margin: 0 0 30px; }
+
+    .discover-categories-main .small-section-title { margin: 0 0 40px; }
+    .discover-categories-wrp { padding: 30px 0 30px; }
+
+    .video-wrp { padding: 30px 0; }
+    .video-main .row { margin: 0 -20px; flex-direction: column-reverse; }
+    .video-main .row>* { padding: 0 20px; }
+    .video-content {margin: 0 0 30px;}
+    
+    .pay-smartly-wrp { padding: 30px 0; }
+
+    .personal-credit-content {margin: 0 0 30px;}
+    .pay-smartly-main .row {flex-direction: column-reverse;}
+    .personal-credit-content .small-section-title { margin: 0 0 20px; }
+
+    .faq-wrp { padding: 60px 0; }
+    .faq-main .accordion-button { font-size: 18px; line-height: 26px; }
+    .faq-main .accordion-item {padding: 20px 0;}
+    .faq-inner .small-section-title { margin: 0 0 10px; }
+    .faq-main .accordion-button::after {background-size: 100% 100%; width: 16px; height: 16px;}
+    
+    .regulations-main .small-section-title { margin: 0 0 30px; }
+    .regulations-block {margin: 0 0 20px; padding: 20px 20px;}
+
+    .modal-video .modal-body iframe {height: 320px;}
+    .modal-video .modal-content {padding: 0 15px 0 0;}
+    /* Application Tbi End */
+
+    /* Your Personal Credit Page Strat */
+    .tbi-benefits-wrp1 .tbi-benefits-inner { margin: 0 0 30px; }
+
+    .get-personal-loan-block {padding: 20px; height: auto; margin: 0 0 30px;}
+    .get-personal-loan-block .small-section-title { font-size: 22px; line-height: 26px; }
+    .get-personal-loan-wrp { padding: 30px 0 10px; }
+    .get-personal-loan-main > .small-section-title { margin: 0 0 40px; }
+
+    .payment-methods-wrp { padding: 30px 0; }   
+    .payment-methods-wrp > .small-section-title {margin: 0 0 40px;} 
+    .payment-methods-item { margin: 0 20px 0 0; }
+    .payment-methods-item .common-detail p { margin: 0 0 15px; }
+
+    .personal-credit-bnr-right iframe {margin-right: auto; height: 800px;}
+    .personal-credit-wrp1 .personal-credit-row  .row{flex-direction: column-reverse;}
+    .personal-credit-wrp1 .personal-credit-img {margin: 0;}
+
+    .personal-credit-bnr-wrp { padding: 50px 0 30px; }
+    .personal-credit-wrp2 .personal-credit-content, .personal-credit-wrp2 .personal-credit-content .common-detail {margin: 0;}
+
+    .payment-methods-title { padding: 0 0 50px; }
+
+    .online-loan-main > .small-section-title { margin: 0 0 40px; }
+    .online-loan-wrp { padding: 40px 0 20px; }
+    .online-loan-block { padding: 25px 25px; height: auto; }
+    .online-loan-block .small-title { margin: 0 0 20px; }
+
+    .graph-wrp { padding: 40px 0 40px; }
+    .graph-title { margin: 0 0 30px; }
+    .graph-details { max-width: 310px; }
+    .graph-slider .graph-items { position: relative; margin: 0 10px; padding: 100px 30px; background-color: #fff; border-radius: 16px; -webkit-border-radius: 16px; -moz-border-radius: 16px; -ms-border-radius: 16px; -o-border-radius: 16px; }
+    .graph-circles-main::before {width: 100%;}
+    .graph-circles-main::after {width: 100%;}
+    .graph-details p { font-size: 12px; line-height: 14px; }
+    .graph-details-value {padding: 100px 0 0;}
+    .graph-title .small-section-title { margin: 0 0 15px; }
+    .graph-slider .graph-items::before { content: ""; position: absolute; height: 2px; left: 0; right: 0; top: 108px; background: linear-gradient(90deg,rgba(111,111,121,0),#6f6f79 18.23%,#6f6f79 79.17%,rgba(111,111,121,0)); }
+
+    .example-section em { margin-top: 12px; }
+    /* Your Personal Credit Page End */
+
+    /* Credit Tbi Duo Page Start */
+    .conditions-main .small-section-title { margin: 0; } 
+    .conditions-wrp { padding: 40px 0 10px; }
+    .conditions-block h3 {font-size: 20px; line-height: 26px; margin: 0 0 20px;}
+    .conditions-section .conditions-block { padding: 25px 0; }
+
+    .credit-benefits-icon { width: 50px; height: 50px; flex: 0 0 50px; padding: 8px; margin: 0 20px 0 0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; }
+    .credit-benefits-wrp { padding: 30px 0; }
+    .credit-benefits-main .small-section-title { margin: 0 0 30px; }
+    .credit-benefits-block {margin: 0 0 30px;}
+    .commen-detail-span{font-size: 14px; line-height: 20px;}
+    .credit-benefits-section .row>*:nth-last-child(-n+2) .credit-benefits-block { margin-bottom: 30px; }
+    .credit-benefits-section .row>*:last-child .credit-benefits-block {margin-bottom: 0;}
+
+    .payment-installment-item {margin: 0 15px; padding: 25px;}
+    .payment-installment-slider {margin: 0 0;}
+    .payment-installment-slider .slick-arrow {width: 42px; height: 42px; }
+    .payment-installment-slider .slick-next { right: -4px; }
+    .payment-installment-slider .slick-prev {left: -4px;}
+    .payment-installment-title {margin: 0 0 30px; display: block;}
+    .payment-installment-wrp { padding: 30px 0 70px; }
+    .payment-installment-slider .slick-dots { margin: 30px 0 0; }
+    .required-documents-wrp { padding: 30px 0 10px; }
+    .required-documents-main .small-section-title { margin: 0 0 30px; }
+    .payment-installment-title .small-section-title {margin: 0 0 20px 0;}
+
+    .recommended-products-block .small-section-title {font-size: 28px; line-height: 34px;}
+    .recommended-products-block .common-detail { margin: 0 0 30px; }
+    .recommended-products-block {padding: 35px 35px 100px; margin: 0 0 30px;}
+    .recommended-products-wrp { padding: 30px 0 10px; }
+    .recommended-products-section .row {margin: 0 -15px;}
+    .recommended-products-section .row>* { padding: 0 15px; }
+    .recommended-products-section .row>*:nth-child(2) .recommended-products-block { margin-top: 0; }    
+    
+    .latest-news-wrp .recommended-products-block {padding: 30px;}
+    .latest-news-wrp .recommended-products-block .product-tags { padding: 30px 0 0; }
+    .product-tags ul li { font-size: 14px; line-height: 18px; padding: 14px; }
+
+    .contact-details-wrp { padding: 30px 0; }
+    .contact-details-main {padding: 30px;}
+    .contact-details-block .contact-details-inner:nth-last-child(2) { padding: 20px 0 0; }
+    .contact-details-block .small-title { margin: 0 0 15px; }
+    .contact-details-block {padding: 0 0 30px;}
+
+    .installment-banner-detail .common-detail {color: #212934;}
+    .installment-banner-section-2 .credit-flex-part .small-title {color: #212934;}
+    .installment-banner-detail .btn-orange:hover {background-color: #999 !important; color: #fff !important;}
+
+    .pagination-block .page-link { font-size: 16px; line-height: 22px; width: 40px; height: 40px; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; }
+    .pagination-block .prev .page-link, .pagination-block .next .page-link {padding: 8px 11px;}
+    .pagination-block .pagination .page-item { margin: 0 6px; }
+
+    .partner-info * { font-size: 18px; line-height: 24px; }
+    .partner-detail { height: auto; margin-bottom: 30px;}
+    .partner-info span {font-size: 16px; line-height: 20px;}
+    .partner-detail .partner-info { margin-top: 15px; }
+    .partner-section { padding: 30px 0; }
+    .partner-row { margin-top: 30px; }
+
+    .example-section { padding: 30px 0; }
+
+    .filter-part { margin-top: 30px; }
+    .filter-part .form-control { padding: 10px 40px 10px 40px; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; }
+    .filter-part .form-group .search-img {left: 7px; width: 24px;}
+    .filter-icon { width: 50px; height: 50px; }
+
+    .tbi-benefits-wrp.tbi-benefits-wrp2 {padding: 30px 0;}
+    /* Credit Tbi Duo Page End */
+
+    /* Footer */
+    .ftr-app .ftr-title h5 { margin: 0 0 9px 0; }
+    .ftr-title h5 { font-size: 18px; line-height: 20px; margin: 0 0 20px;}
+    /* .footer { padding: 80px 0 0; } */
+    .footer-main { padding: 0 0 40px 0; }
+    .ftr-phone { margin: -60px 0 0 0; }
+    .download-app__links {padding: 15px;}
+    .download-app__links-qrcode { border-radius: 22px; width: 102px; height: 102px; margin: 0 11px 0 0; min-width: 102px;}
+    .download-app__links-header { font-size: 17px; line-height: 20px; }
+    .download-app__links-qrcode>img { height: 90px; width: 90px; }
+    .download-app__links-descr { font-size: 15px; line-height: 17px; margin: 0 0 13px; }
+    .download-app__btn:first-child { margin: 0 5px 0 0; }
+    .footer ul li { margin: 0 10px; }
+    .ftr-right {padding: 30px 0 0 0;}
+    .insolventa { margin: 0 0 0 20px; max-width: 150px; width: 100%;}
+    .depozitul-online-footer{padding: 0 0 0;}
+    /* Footer */
+
+    /* online section */
+    .online-section .banner-title{font-size: 36px; line-height: 40px;}
+    .online-section .common-list-title *{font-size: 16px; line-height: 25px;}
+    .online-section .tab-part ul li{margin: 0 3px;}
+    .online-section .tab-part ul li a{padding: 4px 12px;}
+    .online-section .tab-part{margin: 0 auto;}
+    .online-section .iframe-block{justify-content: center;}
+    /* online section */
+
+    /* Interest section */
+    .interest-section .interest-list ul li span{font-size: 18px;}
+    .interest-section .banner-title{font-size: 40px;}
+    .interest-section .interest-list{margin-top: 40px;}
+    .interest-section .interest-list ul{flex-wrap: wrap; margin: 0 0 0 20px;}
+    .interest-section .interest-list ul li{margin: 0 20px 20px 0;}
+    .interest-section .disclaimer-part{margin-top: 80px;}
+    .disclaimer-info{margin-top: 30px;}
+    /* Interest section */
+
+    /* contact section */
+    .contact-part{padding: 20px 0;}
+    .contact-section .row { margin: 0 -8px; }
+    .contact-section .row > *{ padding: 0 8px; }
+    .contact-section .contact-content{padding: 30px 20px 5px !important;}
+    .contact-section .small-title{font-size: 18px; line-height: 22px;}
+    .contact-section .tbi-benefits-icon{margin: 0 6px 0 0;}
+    .contact-section .contact-info > *{font-size: 15px; line-height: 25px; margin-bottom: 20px; text-align: center; align-items: center;}
+    .contact-section .tbi-benefits-block{margin: 0 0 25px; justify-content: center;}
+    .contact-section .contact-detail{border-bottom: 1px solid white; border-right: none; margin-bottom: 25px;}
+    .contact-section .contact-info{align-items: center; text-align: center;}
+    .contact-section .row > *:last-child .contact-detail{ border-bottom: none; }
+    /* contact section */
+
+    /* Regulations Start */
+    .regulation-wrp .regulations-block::after{right: 20px;}
+    .regulation-wrp .regulations-block{padding: 20px;}
+    .regulation-wrp .regulations-block span{padding-right: 25px;}
+    .regulation-wrp{padding: 30px 0;}
+    /* Regulations Start */
+
+    /* deposit section */
+    .deposit-section .deposit-info{margin-top: 30px;}
+    .deposit-section .deposit-info *{margin-bottom: 20px; font-size: 16px; line-height: 26px;}
+    .deposit-section .banner-title{font-size: 30px; line-height: 34px;}
+    .magazine-deposit-section .deposit-info *{margin-bottom: 0; max-width: 100%;}
+    .magazine-deposit-section { padding: 40px 0; }
+    /* deposit section */
+
+    /* simple deposit section */
+    .simple-deposit-section .banner-title{font-size: 30px; line-height: 40px;}
+    .simple-deposit-section .simple-deposite-info{margin-top: 20px;}
+    .apply-now-button{margin-top: 30px;}
+    .simple-deposit-section .simple-deposite-info *{font-size: 16px; line-height: 26px; max-width: 100%;}
+    .simple-deposit-section .cartoon-image{margin-top: 20px;}
+    /* simple deposit section */
+
+    /* form section  */
+    .form-title{font-size: 40px; line-height: 50px;}
+    .form-part{margin-top: 40px;}
+    .form .form-group{margin-bottom: 30px;}
+    /* form section  */
+
+    /* installment section  */
+    /* .installment-banner-section{padding: 70px 0;}
+    .installment-banner-detail{max-width: 280px;}
+    .installment-banner-button .btn{font-size: 15px; line-height: 20px; padding: 12px 18px;} */
+    /* installment section  */
+
+    /* personal-credit-wrp3 */
+    .credit-flex-part{ margin-top: 20px; }
+    .credit-flex-part span{margin-top: 10px;}
+    /* personal-credit-wrp3 */
+
+    /* partner section */
+    .partner-row .row { margin: 0 -12px; }
+    .partner-row .row > *{ padding: 0 12px; }
+    /* partner section */
+
+    /* installment-banner-section */
+    .installment-banner-section{padding: 0 0 70px; background-image: none !important;}
+    .installment-banner-detail{max-width: 280px;}
+    .installment-banner-button .btn{font-size: 15px; line-height: 20px; padding: 12px 18px;}
+    .installment-banner-section-2 .banner-title br{display: none;}
+    .installment-banner-section-2 .installment-banner-detail{max-width: 100%; position: relative; top: 0;}
+    .installment-banner-main {padding: 30px 0 0;}
+    .installment-banner-detail .installment-banner-paragraph{max-width: 245px;}
+    /* .installment-banner-section-2::before{bottom: 0; left: 0; right: 0; background: -webkit-linear-gradient(90deg, #1d1f2e 30%, rgba(29, 31, 46, .5) 50%, rgba(29, 31, 46, 0));} */
+    .installment-banner-section-2{background-size: cover; padding: 0 0 50px; background-position: center; background-color: #fff;}
+    .installment-banner-section-2::before {display: none;}
+    .installment-banner-section-2 .banner-title{font-size: 30px; margin-bottom: 10px; color: #212934;}
+    .installment-banner-section-2 .installment-banner-detail .installment-banner-paragraph{font-size: 16px; line-height: 26px; max-width: 100%; margin-bottom: 10px;}
+    .installment-banner-section-2 .credit-flex-part span{font-size: 24px; line-height: 40px;}
+    .installment-banner-section-2 .credit-flex-part .small-span{font-size: 20px;}
+    .installment-banner-section-2 .credit-flex-part{margin-top: 30px; margin-bottom: 20px;}
+    /* installment-banner-section */
+
+     /* steps section  */
+     .steps-part ul li br{display: none;}
+     .steps-part ul li span{margin-right: 20px; max-width: 60px; height: 60px; font-size: 30px; line-height: 44px;}
+     .steps-part ul li::before{left: 29px;}
+     .steps-part ul li{font-size: 16px; line-height: 22px; margin-bottom: 30px;}
+     .steps-row { margin-top: 30px; }
+     .steps-row .row{flex-direction: column-reverse;}
+     .steps-part{margin-top: 30px;}
+     .steps-section .apply-now-button{margin-top: 40px;}
+     .steps-section .apply-now-button .btn{padding: 12px 26px;}
+     .steps-section{padding: 30px 0;}
+     /* steps section  */
+
+    /* question section */
+    .question-content .cartoon-image{display: none;}
+    .question-detail .common-detail{max-width: 100%;}
+    .question-content{padding: 30px;}
+    .question-detail .section-title{font-size: 34px; line-height: 40px;}
+    .question-detail .apply-now-button .btn{padding: 12px 24px;}
+    .question-section{margin: 40px 0;}
+    /* question section */
+
+}
+
+/*---------- Small Mobile , IPhone Start ----------*/
+
+/*=== Screen Size = 240, 320, 360, 480, 568 ===*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .modal-video .modal-dialog {margin: 0 15px;}
+    .modal-video .modal-content { padding: 0 30px 0 0; }
+}
+
+@media (max-width: 575px) {
+
+    .ftr-right { padding: 0; }
+    .ftr-app { margin: 50px 0 0 auto; }
+    .footer-last-main { padding: 56px 0 20px; flex-direction: column; }
+    .footer-last-main-right { margin: 20px 0 0; }
+    .footer-last-main-right ul li {max-width: 20px; width: 100%;}
+
+    /* online section */
+    .online-section .cartoon-image{max-width: 100%; height: 100%;}
+    .online-section iframe{width: 100%;}
+    /* online section */
+
+    /* form section  */
+    .form-title{font-size: 30px; line-height: 40px;}
+    .form-part{margin-top: 30px;}
+    /* form section  */
+
+    /* installment section  */
+    .installment-banner-detail .installment-banner-paragraph{max-width: 100%;}
+   /* .credit-flex-part-2 .small-title { color: #65cfd3 !important; } */
+    .credit-flex-part-2 .right-part{margin-left: 20px; margin-top: 0;}
+    .installment-banner-section-2 .installment-banner-detail .installment-banner-paragraph{color: #0d0d0d;}
+    .installment-banner-section-2 .banner-title{color: #0d0d0d;}
+    .installment-banner-section-2::before{background: none;}
+    .installment-banner-section-2 .installment-banner-detail{top: 0;}
+    /* .installment-banner-button .btn:hover{color: #ff6600; background: rgba(255, 102, 0, 0.16) !important;} */
+    .installment-banner-detail{max-width: 100%;}
+    .installment-banner-section{background-image: none; background: #FFF; padding: 0 0 30px;}
+    .installment-banner-section-2{background-image: none !important; background: #FFF !important; padding: 0 0 30px !important;}
+    .installment-banner-section-2 img{height: auto !important;}
+    .installment-banner-section img{ width: 100%; height: 100%; object-fit: cover; border-radius:0 0 24px 24px ; -webkit-border-radius:0 0 24px 24px ; -moz-border-radius:0 0 24px 24px ; -ms-border-radius:0 0 24px 24px ; -o-border-radius:0 0 24px 24px ; }
+    .installment-banner-section-2 .credit-flex-part{flex-direction: column;}
+    .credit-flex-part .right-part {margin-left: 0; margin-top: 10px;}
+    .personal-credit-content .credit-flex-part .right-part {margin-left: 20px; margin-top: 0;}
+    /* installment section  */
+
+    /* partner section */
+    .partner-row .row { margin: 0 0; }
+    .partner-row .row > *{ padding: 0 0; }
+    /* partner section */
+
+    /* installment section */
+    /* .installment-banner-detail .installment-banner-paragraph{max-width: 100%;}
+    .credit-flex-part-2 .small-title { color: #65cfd3 !important; }
+    .credit-flex-part-2 .right-part{margin-left: 20px; margin-top: 0;} */
+    /* installment section */
+
+    .tbi-benefits-wrp2 .row{ margin: 0 0; }
+    .tbi-benefits-wrp2 .row > *{ padding: 0 0; }
+
+    /* steps section  */
+    .steps-section{padding: 20px 0;}
+    /* steps section  */
+}
+
+
